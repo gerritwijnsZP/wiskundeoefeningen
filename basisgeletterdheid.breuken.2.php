@@ -1,0 +1,64 @@
+<?php
+
+ini_set('display_startup_errors', 1);
+ini_set('display_errors', 1);
+error_reporting(-1);
+
+require_once("class.oefening.php");
+require_once("class.math.php");
+require_once("class.helper.php");
+
+class Fabriek extends OefeningFactory
+{
+	public function run()
+	{
+		$i = random_int(11,12);
+		return call_user_func(array($this,"oef".$i));
+	}
+	private function oef11()
+	{
+		//Korting
+		$a			= random_int(101,999);
+		$k			= random_int(1,15)*5;
+		$zinnen		= array(
+						"Je krijgt #k% korting op een aankoop van € #a. Hoeveel betaal je minder?",
+						"Vorige week waren er #a besmettingen, deze week #k% minder. Met hoeveel besmettingen zakken we deze week?",
+						"Je kocht cryptomunten ter waarde van €#a. Ze daalden #k% in waarde. Hoeveel bedraagt je verlies?",
+						"De fuif trok vorig jaar #a bezoekers. Dit jaar zijn het er #k% minder. Hoeveel bedraagt het verschil tussen beide jaren?",
+					);
+		$zin		= strReplaceAssoc(array("#a"=>puntkomma($a),"#k"=>$k), $zinnen[random_int(0, count($zinnen)-1)]);
+		$opgave		= "\\)".$zin."\\(";
+		$r			= $a*($k/100);
+		$oplossing	= puntkomma($a)."\\times $k\%=".puntkomma($r);
+		if($r !== round($r))
+		{
+			$oplossing.= "\\approx ".puntkomma(round($r));
+		}
+		$stamp		= '11.'.$a;
+		return new Oefening($this->titel,$opgave, $oplossing, $stamp);
+	}
+	private function oef12()
+	{
+		//Korting
+		$a			= random_int(101,999);
+		$k			= random_int(1,15)*5;
+		$zinnen		= array(
+						"Je wint bij een kansspel #k% bovenop je inzet van € #a. Hoeveel krijg je bovenop je inzet?",
+						"Vorige week waren er #a besmettingen, deze week #k% meer. Hoeveel besmettingen zijn er deze week bij gekomen?",
+						"Je kocht cryptomunten ter waarde van €#a. Ze stegen #k% in waarde. Hoeveel bedraagt je winst?",
+						"De fuif trok vorig jaar #a bezoekers. Nu zijn het er #k% meer. Hoeveel bezoekers zijn er bij gekomen tegenover vorig jaar?",
+					);
+		$zin		= strReplaceAssoc(array("#a"=>puntkomma($a),"#k"=>$k), $zinnen[random_int(0, count($zinnen)-1)]);
+		$opgave		= "\\)".$zin."\\(";
+		$r			= $a*($k/100);
+		$oplossing	= puntkomma($a)."\\times $k\%=".puntkomma($r);
+		
+		if($r !== round($r))
+		{
+			$oplossing.= "\\approx ".puntkomma(round($r));
+		}
+		$stamp		= '12.'.$a;
+		return new Oefening($this->titel,$opgave, $oplossing, $stamp);
+	}
+}
+?>
