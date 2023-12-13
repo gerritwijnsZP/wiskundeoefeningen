@@ -197,7 +197,11 @@ $paginas = array(
 				 "stelsels.substitutie" =>array( "Titel"=> "Stelsels substitutie" ,"Opgave"=> "Substitutie" ),
 				 "stelsels.combinatie" =>array( "Titel"=> "Stelsels combinatie" ,"Opgave"=> "Combinatie" ),
 				 "stelsels.breuken" =>array( "Titel"=> "Stelsels met breuken" ,"Opgave"=> "Substitutie of combinatie" ),
-				 
+
+                 "eerstegraadsfuncties"=>array("Titel"=>"#Eerstegraadsfuncties", "Opgave"=>"Werk uit"),
+                 "eerstegraadsfunctie.bepalen.rico.en.punt.gegeven" =>array( "Titel"=> "Bepalen voorschrift (rico + punt gegeven)" ,"Opgave"=> "Bepaal het voorschrift in de vorm f(x)=ax+b" ),
+                 "eerstegraadsfunctie.bepalen.2punten.gegeven" =>array( "Titel"=> "Bepalen voorschrift (2 punten gegeven)","Opgave"=> "Bepaal het voorschrift in de vorm f(x)=ax+b" ),
+                 "eerstegraadsfunctie.bepalen" =>array( "Titel"=> "Bepalen voorschrift (gemengd)","Opgave"=> "Bepaal het voorschrift in de vorm f(x)=ax+b" ),
 				 
 				 "hoeken.omrekenen"=>array("Titel"=>"#Hoeken omrekenen", "Opgave"=>"Probeer op zicht. Indien te complex, gebruik ZRM (radialen op 0,001 nauwkeurig, hoeken op een seconde nauwkeurig)"),
 				 "hoeken.graad.naar.radiaal.1"=>array("Titel"=>"Van graden naar radialen", "Opgave"=>"Geef een exacte uitkomst (laat &pi; staan). Zonder ZRM!"),
@@ -218,10 +222,17 @@ $paginas = array(
 				 "logaritmen.3" =>array( "Titel"=> "log<sub>10</sub> met rekenmachien" ,"Opgave"=> "Bepaal x met ZRM" ),
 				 "logaritmen.4"=>array( "Titel"=> "Rekenregels (reeks 1)" ,"Opgave"=> "Pas de rekenregels toe en bereken" ),
 				 //"logaritmen.5"=>array( "Titel"=> "Rekenregels (reeks 2)" ,"Opgave"=> "Pas de rekenregels toe en bereken" ),
-				
-				
-				
-		);
+
+                "Complexe getallen"=>array("Titel"=>"#Complexe getallen", "Opgave"=>"Bereken. Gebruik ZRM als oplossing op zicht niet mogelijk is."),
+                "complexe.getallen.1" =>array( "Titel"=> "Optellen en aftrekken (a+bi)" ,"Opgave"=> "Bereken" ),
+                "complexe.getallen.2" =>array( "Titel"=> "Vermenigvuldigen en delen (a+bi)" ,"Opgave"=> "Bereken" ),
+                "complexe.getallen.3" =>array( "Titel"=> "Basisbewerkingen gemengd (a+bi)" ,"Opgave"=> "Bereken" ),
+                "complexe.getallen.4"=>array( "Titel"=> "Bepaal modulus en argument" ,"Opgave"=> "Bepaal modulus en argument" ),
+                //"logaritmen.5"=>array( "Titel"=> "Rekenregels (reeks 2)" ,"Opgave"=> "Pas de rekenregels toe en bereken" ),
+
+
+
+);
 /* Hier definiëren we de mixers die niet alle oefeningen bevatten
  * We vullen deze array straks aan met de mixers per blok o.b.v. $paginas
  */ 

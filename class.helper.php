@@ -7,6 +7,7 @@ function p($getal, $first=0)
 	//Midden
 	elseif($getal == 1 and $first == 0){ return "+";}
 	elseif($getal == -1 and $first < 2){ return "-";}
+//	elseif($getal == 0 and $first == 3){ return "";}   // toegevoegd om nullen niet af te drukken  2023.12.08
 	elseif($getal >= 0 and $first == 0){ return "+".$getal;}
 	//Einde
 	elseif($getal >= 0 and $first == 2){ return "+".$getal;}
@@ -19,6 +20,36 @@ function h($getal)
 	else
 	{ return $getal; }
 }
+
+// Afdrukken getallen
+function getalafdruk($getal, $first=0)
+{
+	//Begin
+	switch($first){
+		case 0:
+			// Getal altijd afdrukken, steeds met teken
+			if($getal >= 0){ return "+".$getal;}
+			else{ return $getal;}
+			break;
+		Case 1:
+			// getal altijd afdrukken, negatieve getallen met haakjes
+			if($getal < 0){ return "(".$getal.")";}
+			else{ return $getal;}
+			break;
+		case 2:
+			// Getal altijd afdrukken behalve 0, steeds met teken
+			if($getal == 0){ return "";}
+			elseif($getal>0) {return "+".$getal;}
+			else{ return $getal;}
+			break;
+		default:
+		   return $getal;
+	}
+
+
+}
+
+
 //Wortelvormen
 function vkw($getal)
 {
