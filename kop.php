@@ -1,11 +1,12 @@
 <?php
-if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
-{
-    //Tell the browser to redirect to the HTTPS URL.
-    header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"], true, 301);
-    //Prevent the rest of the script from executing.
-    exit;
-}
+// DISABLED DUE TO LOCALHOST NOT HAVING SSL BY DEFAULT
+// if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
+// {
+//     //Tell the browser to redirect to the HTTPS URL.
+//     header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"], true, 301);
+//     //Prevent the rest of the script from executing.
+//     exit;
+// }
 date_default_timezone_set("Europe/Brussels");
 setlocale(LC_TIME, 'NL_nl');
 ?>
@@ -19,10 +20,9 @@ setlocale(LC_TIME, 'NL_nl');
 	<meta name="description" content="Wiskunde">
 	<meta name="author" content="Vanhoecke Sven">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/skeleton.css">
-	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="/public/css/normalize.css">
+	<link rel="stylesheet" href="/public/css/skeleton.css">
+	<link rel="icon" href="/public/assets/favicon.png" type="image/x-icon">
 	<style>
 	input[type="date"]::-webkit-input-placeholder{ 
 		visibility: hidden !important;

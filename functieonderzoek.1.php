@@ -111,4 +111,4 @@ class Fabriek extends OefeningFactory
 	}
 }
 ?>
-<script src="grafiek.js"></script>
+<script src="/public/scripts/grafiek.js"></script>

@@ -119,4 +119,4 @@ class Fabriek extends OefeningFactory
 	}
 }
 ?>
-<script src="goniometrie.js"></script>
+<script src="/public/scripts/goniometrie.js"></script>

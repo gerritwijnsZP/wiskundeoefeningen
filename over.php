@@ -42,7 +42,7 @@ a:hover{
 		<p>Tijdens de coronaperiode hebben we onze leerlingen van het tweede leerjaar hierover <b>een initiatie</b> gegeven. 
 		Je kan de uitleg die we hen hebben gegeven <a href='https://docs.google.com/document/d/1EB_sPKmBzVAPHTh936jqXoDwVbxiRQsUa41jBnj888c/edit?usp=sharing' target=_blank rel="noopener">hier</a> bekijken en downloaden.</p>
 		<p>Bij de oplossingen kun je de LaTeX-code ook laten verschijnen via <b>Rechtsklik > Show Math As > Tex Commands</b>.
-		<img src='show.math.as.png' border=1 style='width:100%' />
+		<img src='/public/assets/show.math.as.png' border=1 style='width:100%' />
 		</p>
 	</div>
 	<div class="row">
@@ -57,7 +57,7 @@ a:hover{
 	</div>
 	<div class="row">
 		<h3 id='steun.ons'>Steun ons</h3>
-		<p><!--<span style='float:right;padding:3px;width:100px; '><a href='https://creativecommons.org/licenses/by/3.0/deed.nl' target=_blank rel="noopener"><img src='free.cultural.works.jpg' /></a></span>-->
+		<p><!--<span style='float:right;padding:3px;width:100px; '><a href='https://creativecommons.org/licenses/by/3.0/deed.nl' target=_blank rel="noopener"><img src='/public/assets/free.cultural.works.jpg' /></a></span>-->
 		De oefeningengenerator zal <b>altijd gratis</b> worden aangeboden. 
 		Er zullen nooit reclamebanners of andere geldgenererende mechanismen op deze educatieve website worden geplaatst.
 		</p><p>
