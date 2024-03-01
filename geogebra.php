@@ -1,6 +1,7 @@
 <?php
 session_start(); 
-include('kop.html');
+require $_SERVER["DOCUMENT_ROOT"] . "config.php";
+include(COMPONENTS . 'kop.html');
 if(isset($_GET['code']))
 {
 ?>
@@ -36,4 +37,4 @@ if(isset($_GET['code']))
 </div>
 <?php
 }
-include('voet.html');?>
+include(COMPONENTS . 'voet.html');?>

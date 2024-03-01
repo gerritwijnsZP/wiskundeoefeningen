@@ -1,4 +1,5 @@
 <?php
+require $_SERVER["DOCUMENT_ROOT"] . '/config.php';
 session_start(); 
 //AANTAL OEFENINGEN 
 if(!isset($_SESSION['aantal'])){$_SESSION['aantal']=12;}
@@ -50,7 +51,7 @@ else
 	$label = $_GET['pagina'];
 	if(!in_array($label, array_keys($paginas))){ die('Onbekend verzoek');}
 	//MOTOR
-	require_once("class.pagina.php");
+	require_once(LIB . "class.pagina.php");
 	$pagina = $paginas[$label];
 ?>
 <div class="container">
@@ -83,7 +84,8 @@ else
 			}
 			try
 			{
-				$P = new Pagina($pagina["Opgave"], $label.'.php');
+				var_dump($pagina);
+				$P = new Pagina($pagina["Opgave"], $label.'.php', $pagina["folder"]);
 				$P->toon($_SESSION['aantal']);
 			}catch(Exception $e) {
 				
@@ -98,4 +100,4 @@ else
 
 }
 ?>
-<?php include('voet.html');?>
+<?php include(COMPONENTS . 'voet.html');?>

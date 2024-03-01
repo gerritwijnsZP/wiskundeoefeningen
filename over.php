@@ -1,4 +1,5 @@
 <?php
+require $_SERVER["DOCUMENT_ROOT"] . "/config.php";
 include('kop.php');
 ?>
 <style>
@@ -135,4 +136,4 @@ a:hover{
 	</div>
 	
 </div>
-<?php include('voet.html');?>
+<?php include(COMPONENTS . 'voet.html');?>

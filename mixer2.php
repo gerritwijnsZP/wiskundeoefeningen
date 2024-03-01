@@ -1,4 +1,5 @@
 <?php
+require $_SERVER["DOCUMENT_ROOT"] . "/config.php";
 session_start(); 
 include('kop.php');
 require_once('class.pagina.php');
@@ -71,4 +72,4 @@ function myFunction() {
   }
 }
 </script>
-<?php include('voet.html');?>
+<?php include(COMPONENTS . 'voet.html');?>

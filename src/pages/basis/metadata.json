@@ -1,0 +1,30 @@
+{
+    "title": "basis",
+    "description": "This is the metadata for the chapter basis",
+    "sections": [
+        {
+            "title": "basis-optellen",
+            "description": "This is the metadata for the section basis-optellen"
+        },
+        {
+            "title": "bgl-6.1",
+            "description": "This is the metadata for the section bgl-6.1"
+        },
+        {
+            "title": "bgl-6.3",
+            "description": "This is the metadata for the section bgl-6.3"
+        },
+        {
+            "title": "bgl-6.5-6.6",
+            "description": "This is the metadata for the section bgl-6.5-6.6"
+        },
+        {
+            "title": "statistiek",
+            "description": "This is the metadata for the section statistiek"
+        },
+        {
+            "title": "tafels",
+            "description": "This is the metadata for the section tafels"
+        }
+    ]
+}

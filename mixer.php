@@ -1,4 +1,5 @@
 <?php
+require $_SERVER["DOCUMENT_ROOT"] . "/config.php";
 session_start(); 
 /*
 ini_set('display_startup_errors', 1);
@@ -6,7 +7,7 @@ ini_set('display_errors', 1);
 error_reporting(-1);
 */
 include('kop.php');
-require_once('class.pagina.php');
+require_once(LIB . 'class.pagina.php');
 include('index.overzicht.php');
 //ONTVANGEN
 $label = $_GET['blok'];
@@ -81,4 +82,4 @@ function myFunction() {
   }
 }
 </script>
-<?php include('voet.html');?>
+<?php include(COMPONENTS . 'voet.html');?>

@@ -1,14 +1,15 @@
 <?php
+require $_SERVER["DOCUMENT_ROOT"] . '/config.php';
 
 ini_set('display_startup_errors', 1);
 ini_set('display_errors', 1);
 error_reporting(-1);
 
-require_once("class.oefening.php");
-require_once("class.math.php");
-require_once("class.helper.php");
-//require_once("class.rational.php");
-//require_once("class.hoek.php");
+require_once(LIB . "class.oefening.php");
+require_once(LIB . "class.math.php");
+require_once(LIB . "class.helper.php");
+//require_once(LIB . "class.rational.php");
+//require_once(LIB . "class.hoek.php");
 
 class Fabriek extends OefeningFactory
 {
