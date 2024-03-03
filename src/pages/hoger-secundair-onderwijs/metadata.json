@@ -1,46 +1,202 @@
 {
-    "title": "hoger-secundair-onderwijs",
-    "description": "This is the metadata for the chapter hoger-secundair-onderwijs",
-    "sections": {
-        "complexe-getallen": {
-            "title": "complexe-getallen",
-            "description": "This is the metadata for the section complexe-getallen"
-        },
-        "eerstegraadsfuncties": {
-            "title": "eerstegraadsfuncties",
-            "description": "This is the metadata for the section eerstegraadsfuncties"
-        },
-        "functieonderzoek": {
-            "title": "functieonderzoek",
-            "description": "This is the metadata for the section functieonderzoek"
-        },
-        "goniometrie": {
-            "title": "goniometrie",
-            "description": "This is the metadata for the section goniometrie"
-        },
-        "hoeken-omrekenen": {
-            "title": "hoeken-omrekenen",
-            "description": "This is the metadata for the section hoeken-omrekenen"
-        },
-        "logaritmen": {
-            "title": "logaritmen",
-            "description": "This is the metadata for the section logaritmen"
-        },
-        "logica": {
-            "title": "logica",
-            "description": "This is the metadata for the section logica"
-        },
-        "rationale-machten": {
-            "title": "rationale-machten",
-            "description": "This is the metadata for the section rationale-machten"
-        },
-        "stelsels": {
-            "title": "stelsels",
-            "description": "This is the metadata for the section stelsels"
-        },
-        "vergelijkingen-tweede-graad": {
-            "title": "vergelijkingen-tweede-graad",
-            "description": "This is the metadata for the section vergelijkingen-tweede-graad"
-        }
-    }
+	"title": "hoger-secundair-onderwijs",
+	"description": "This is the metadata for the chapter hoger-secundair-onderwijs",
+	"sections": {
+		"complexe-getallen": {
+			"title": "complexe-getallen",
+			"description": "This is the metadata for the section complexe-getallen",
+			"exercises": [
+				{
+					"title": "complexe.getallen.1",
+					"description": "This is the metadata for the section complexe.getallen.1"
+				},
+				{
+					"title": "complexe.getallen.2",
+					"description": "This is the metadata for the section complexe.getallen.2"
+				},
+				{
+					"title": "complexe.getallen.3",
+					"description": "This is the metadata for the section complexe.getallen.3"
+				},
+				{
+					"title": "complexe.getallen.4",
+					"description": "This is the metadata for the section complexe.getallen.4"
+				},
+				{
+					"title": "complexe.getallen.5",
+					"description": "This is the metadata for the section complexe.getallen.5"
+				}
+			]
+		},
+		"eerstegraadsfuncties": {
+			"title": "eerstegraadsfuncties",
+			"description": "This is the metadata for the section eerstegraadsfuncties",
+			"exercises": [
+				{
+					"title": "eerstegraadsfunctie.bepalen.rico.en.punt.gegeven",
+					"description": "This is the metadata for the section eerstegraadsfunctie.bepalen.rico.en.punt.gegeven"
+				},
+				{
+					"title": "eerstegraadsfunctie.bepalen.2punten.gegeven",
+					"description": "This is the metadata for the section eerstegraadsfunctie.bepalen.2punten.gegeven"
+				},
+				{
+					"title": "eerstegraadsfunctie.bepalen",
+					"description": "This is the metadata for the section eerstegraadsfunctie.bepalen"
+				}
+			]
+		},
+		"functieonderzoek": {
+			"title": "functieonderzoek",
+			"description": "This is the metadata for the section functieonderzoek",
+			"exercises": [
+				{
+					"title": "functieonderzoek.1",
+					"description": "This is the metadata for the section functieonderzoek.1"
+				}
+			]
+		},
+		"goniometrie": {
+			"title": "goniometrie",
+			"description": "This is the metadata for the section goniometrie",
+			"exercises": [
+				{
+					"title": "goniometrie.1",
+					"description": "This is the metadata for the section goniometrie.1"
+				}
+			]
+		},
+		"hoeken-omrekenen": {
+			"title": "hoeken-omrekenen",
+			"description": "This is the metadata for the section hoeken-omrekenen",
+			"exercises": [
+				{
+					"title": "hoeken.graad.naar.radiaal.1",
+					"description": "This is the metadata for the section hoeken.graad.naar.radiaal.1"
+				},
+				{
+					"title": "hoeken.graad.naar.radiaal.2",
+					"description": "This is the metadata for the section hoeken.graad.naar.radiaal.2"
+				},
+				{
+					"title": "hoeken.radiaal.naar.graad.1",
+					"description": "This is the metadata for the section hoeken.radiaal.naar.graad.1"
+				},
+				{
+					"title": "hoeken.radiaal.naar.graad.2",
+					"description": "This is the metadata for the section hoeken.radiaal.naar.graad.2"
+				},
+				{
+					"title": "hoeken.lengte.cirkelboog",
+					"description": "This is the metadata for the section hoeken.lengte.cirkelboog"
+				}
+			]
+		},
+		"logaritmen": {
+			"title": "logaritmen",
+			"description": "This is the metadata for the section logaritmen",
+			"exercises": [
+				{
+					"title": "logaritmen.1",
+					"description": "This is the metadata for the section logaritmen.1"
+				},
+				{
+					"title": "logaritmen.2",
+					"description": "This is the metadata for the section logaritmen.2"
+				},
+				{
+					"title": "logaritmen.3",
+					"description": "This is the metadata for the section logaritmen.3"
+				},
+				{
+					"title": "logaritmen.4",
+					"description": "This is the metadata for the section logaritmen.4"
+				},
+				{
+					"title": "logaritmen.5",
+					"description": "This is the metadata for the section logaritmen.5"
+				}
+			]
+		},
+		"logica": {
+			"title": "logica",
+			"description": "This is the metadata for the section logica",
+			"exercises": [
+				{
+					"title": "logica.niet",
+					"description": "This is the metadata for the section logica.niet"
+				},
+				{
+					"title": "logica.samenstelling.1",
+					"description": "This is the metadata for the section logica.samenstelling.1"
+				},
+				{
+					"title": "logica.samenstelling.2",
+					"description": "This is the metadata for the section logica.samenstelling.2"
+				}
+			]
+		},
+		"rationale-machten": {
+			"title": "rationale-machten",
+			"description": "This is the metadata for the section rationale-machten",
+			"exercises": [
+				{
+					"title": "machten.rationaal.1",
+					"description": "This is the metadata for the section machten.rationaal.1"
+				},
+				{
+					"title": "machten.rationaal.2",
+					"description": "This is the metadata for the section machten.rationaal.2"
+				},
+				{
+					"title": "machten.rationaal.3",
+					"description": "This is the metadata for the section machten.rationaal.3"
+				},
+				{
+					"title": "machten.rationaal.getallen",
+					"description": "This is the metadata for the section machten.rationaal.getallen"
+				}
+			]
+		},
+		"stelsels": {
+			"title": "stelsels",
+			"description": "This is the metadata for the section stelsels",
+			"exercises": [
+				{
+					"title": "stelsels.substitutie",
+					"description": "This is the metadata for the section stelsels.substitutie"
+				},
+				{
+					"title": "stelsels.combinatie",
+					"description": "This is the metadata for the section stelsels.combinatie"
+				},
+				{
+					"title": "stesels.breuken",
+					"description": "This is the metadata for the section stesels.breuken"
+				}
+			]
+		},
+		"vergelijkingen-tweede-graad": {
+			"title": "vergelijkingen-tweede-graad",
+			"description": "This is the metadata for the section vergelijkingen-tweede-graad",
+			"exercises": [
+				{
+					"title": "vkv.volledig.1",
+					"description": "This is the metadata for the section vkv.volledig.1"
+				},
+				{
+					"title": "vkv.volledig.2",
+					"description": "This is the metadata for the section vkv.volledig.2"
+				},
+				{
+					"title": "vkv.onvolledig.1",
+					"description": "This is the metadata for the section vkv.onvolledig.1"
+				},
+				{
+					"title": "vkv.onvolledig.2",
+					"description": "This is the metadata for the section vkv.onvolledig.2"
+				}
+			]
+		}
+	}
 }
