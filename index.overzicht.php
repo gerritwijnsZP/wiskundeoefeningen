@@ -34,6 +34,8 @@
 	}
 </style>
 <?php
+require LIB . "/metadata-parser.php";
+
 $paginas = array(
 	// DONE
 	"BSS" => array("Titel" => "@Basis"),
@@ -307,35 +309,85 @@ $meetkunde = array(
 	"einde" => array("Titel" => "#", "Opgave" => ""),
 );
 
-$order = json_decode(file_get_contents('src/pages/metadata.json'), true)["order"];
-$pages = array();
-$chapters = array_diff(scandir('src/pages'), array('..', '.'), array('metadata.json'));
-foreach ($order as $chapter) {
-	echo '<pre>';
-	var_dump($chapter);
-	echo '</pre>';
+$pages = generateChapterArray();
 
-	$chapterKey = key($chapter);
-	$chapterMetadata = json_decode(file_get_contents('src/pages/' . $chapterKey . '/metadata.json'), true);
+echo '<div class="container"> <div>';
+foreach ($pages as $chapter) {
+	$title = $chapter['title'];
+	$description = $chapter['description'];
 
-	$pages[$chapter] = array();
+	echo '
+		<div class="row">
+			<h1>' . $title . '</h1>
+		</div>
+	';
 
-	$pages[$chapter]['title'] = $chapterMetadata['title'];
-	$pages[$chapter]['description'] = $chapterMetadata['description'];
+	$sections = $chapter['sections'];
+	$sectionGroups = array_chunk($sections, 3);
 
-	$sections = array_diff(scandir('src/pages/' . $chapter), array('..', '.'), array('metadata.json'));
-	foreach ($sections as $section) {
-		$pages[$chapter][$section] = array();
+	foreach ($sectionGroups as $sectionGroup) {
+		echo '
+			<div class="row">
+		';
+		foreach ($sectionGroup as $section) {
+			$title = $section['title'];
+			$description = $section['description'];
 
-		$pages[$chapter][$section]['title'] = $chapterMetadata['sections'][$section]['title'];
-		$pages[$chapter][$section]['description'] = $chapterMetadata['sections'][$section]['description'];
+			echo '
+			<div class="one-third column">
+				<fielset>
+					<legend>' . $title . '</legend>
+			';
 
-		$exercises = array_diff(scandir('src/pages/' . $chapter . '/' . $section), array('..', '.'));
-		foreach ($exercises as $exercise) {
-			$pages[$chapter][$section]['exercises'][] = $exercise;
+			$exercises = $section['exercises'];
+			foreach ($exercises as $exercise) {
+				echo '
+				<a class="rubriek">' . $exercise . '</a>
+				<br>
+				';
+			}
+
+			echo '
+				</fieldset>
+			</div>
+			';
 		}
+		echo '
+			</div>
+		';
 	}
 }
+echo '</div></div>';
+
+// $order = json_decode(file_get_contents('src/pages/metadata.json'), true)["order"];
+// $pages = array();
+// $chapters = array_diff(scandir('src/pages'), array('..', '.'), array('metadata.json'));
+// foreach ($order as $chapter) {
+// 	echo '<pre>';
+// 	var_dump($chapter);
+// 	echo '</pre>';
+
+// 	$chapterKey = key($chapter);
+// 	$chapterMetadata = json_decode(file_get_contents('src/pages/' . $chapterKey . '/metadata.json'), true);
+
+// 	$pages[$chapter] = array();
+
+// 	$pages[$chapter]['title'] = $chapterMetadata['title'];
+// 	$pages[$chapter]['description'] = $chapterMetadata['description'];
+
+// 	$sections = array_diff(scandir('src/pages/' . $chapter), array('..', '.'), array('metadata.json'));
+// 	foreach ($sections as $section) {
+// 		$pages[$chapter][$section] = array();
+
+// 		$pages[$chapter][$section]['title'] = $chapterMetadata['sections'][$section]['title'];
+// 		$pages[$chapter][$section]['description'] = $chapterMetadata['sections'][$section]['description'];
+
+// 		$exercises = array_diff(scandir('src/pages/' . $chapter . '/' . $section), array('..', '.'));
+// 		foreach ($exercises as $exercise) {
+// 			$pages[$chapter][$section]['exercises'][] = $exercise;
+// 		}
+// 	}
+// }
 
 // echo '<pre>';
 // var_dump($pages);
@@ -355,13 +407,15 @@ $is_meetkunde_new_row = false;
 $stijl = '';
 $menurij = "";
 $txt = '';
-//Loop over alle paginas
 $alles = array_merge($paginas, $meetkunde);
+
 foreach ($alles as $pagina => $data) {
+
 	if ($pagina == "#meetkunde") {
 		$is_meetkunde = true;
 		continue;
 	}
+
 	if ($data["Titel"][0] == "@") {
 		$deel = $pagina;
 		if ($txt != '') {
@@ -387,6 +441,7 @@ foreach ($alles as $pagina => $data) {
 		array_push($inhoudsopgave, "<a href='#$pagina'>" . ltrim($data["Titel"], "@") . "</a>");
 		continue;
 	}
+
 	//Als je een rubriektitel tegenkomt
 	if ($data["Titel"][0] == "#") {
 		//Onthoud welk deel dit is en voeg als broldata toe aan $blokken
@@ -442,6 +497,7 @@ foreach ($alles as $pagina => $data) {
 	array_push($blokken[$deel]["reeksen"], $pagina);
 	$aantal_oefeningenreeksen += 1;
 }
+
 if ($menurij != '') {
 	//Als je op 't einde bent en 
 	//je hebt nog een menurij staan die toevallig geen drie volledige blokken bevat, 
