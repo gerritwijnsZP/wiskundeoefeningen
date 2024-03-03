@@ -19,7 +19,7 @@ function generateMetadataFiles($baseDir) {
                 'description' => 'This is the metadata for the section ' . basename($sectionFolder)
             );
 
-            $chapterMetadata['sections'][] = $sectionMetadata;
+            $chapterMetadata['sections'][basename($sectionFolder)] = $sectionMetadata;
         }
 
         $jsonMetadata = json_encode($chapterMetadata, JSON_PRETTY_PRINT);
