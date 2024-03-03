@@ -1,0 +1,203 @@
+{
+    "order": {
+        "basis": {
+            "basis-optellen": [
+                "plus.5",
+                "plus.10",
+                "plus.brug.over.10",
+                "plus.brug.over.10.bis",
+                "plus.20",
+                "plus.brug.10voud",
+                "plus.brug.tot.100",
+                "plus.brug.10vouden",
+                "plus.brug",
+                "plus.brug.mix"
+            ],
+            "tafels": [
+                "tafels.2",
+                "tafels.3",
+                "tafels.4",
+                "tafels.5",
+                "tafels.6",
+                "tafels.7",
+                "tafels.8",
+                "tafels.9",
+                "tafels.10",
+                "tafels"
+            ],
+            "bgl-6.1": [
+                "basisgeletterdheid.breuken.1",
+                "basisgeletterdheid.breuken.2",
+                "basisgeletterdheid.breuken.3",
+                "basisgeletterdheid.breuken.4"
+            ],
+            "bgl-6.3": [
+                "basisgeletterdheid.eenheden.1",
+                "basisgeletterdheid.eenheden.2",
+                "basisgeletterdheid.eenheden.3",
+                "basisgeletterdheid.eenheden.4"
+            ],
+            "bgl-6.5-6.6": [
+                "basisgeletterdheid.rechthoek"
+            ],
+            "statistiek": [
+                "statistiek.gemiddelde",
+                "statistiek.mediaan"
+            ]
+        },
+        "bewerkingen-z-en-q": {
+            "gehele-getallen-plus-en-min": [
+                "geheel.optellen.aftrekken.1",
+                "geheel.haakjesregel",
+                "geheel.optellen.aftrekken.2",
+                "geheel.optellen.aftrekken.3"
+            ],
+            "gehele-getallen-maal-en-delen": [
+                "geheel.vermenigvuldigen.delen.1",
+                "geheel.vermenigvuldigen.delen.2"
+            ],
+            "volgorde-van-bewerkingen": [
+                "volgorde.geheel",
+                "volgorde"
+            ],
+            "basis-breuken": [
+                "grootste.gemene.deler",
+                "breuken.vereenvoudig.op.zich",
+                "breuken.vereenvoudig",
+                "decimaal2breuk",
+                "rationaal.order"
+            ],
+            "breuken-plus-en-min": [
+                "breuken.optellen.pos",
+                "breuken.aftrekken",
+                "breuken.optellen",
+                "breuken.aftrekken.2",
+                "breuken.haakjes.1",
+                "breuken.haakjes.2"
+            ],
+            "breuken-maal-en-delen": [
+                "breuken.vermenigvuldigen.pos",
+                "breuken.vermenigvuldigen",
+                "breuken.vermenigvuldigen.3",
+                "breuken.delen",
+                "breuken.delen.2"
+            ],
+            "machten": [
+                "machten.regenboogtabel",
+                "machten.0",
+                "machten.1",
+                "machten.2",
+                "machten.3",
+                "machten"
+            ],
+            "wortels": [
+                "wortel.rekenen",
+                "wortel.rekenen.2",
+                "wortel.rekenen.3",
+                "wortel.rekenen.4",
+                "wortel.rekenen.5"
+            ],
+            "toepassing": [
+                "wetenschappelijke.notatie",
+                "eenheden"
+            ]
+        },
+        "algebra": {
+            "merkwaardige-producten": [
+                "merkwaardige.producten",
+                "mp.ontbinden.factoren",
+                "ontbinden.factoren",
+                "ontbinden.factoren.2"
+            ],
+            "inleiding-veeltermen": [
+                "lettervorm.herleiden",
+                "lettervorm.getalwaarde",
+                "lettervorm.distributiviteit",
+                "distributiviteit",
+                "veeltermen.bewerkingen.geheel"
+            ],
+            "vertalen-omvormen": [
+                "wiskundetaal",
+                "formules.omvormen",
+                "vgl1.6-wiskundetaal",
+                "vrgstk1.1",
+                "python.def"
+            ],
+            "vergelijkingen-eerste-graad": [
+                "vgl.1.1",
+                "vgl.1.2",
+                "vgl.1.3",
+                "vgl.1.4",
+                "vgl.1.5"
+            ],
+            "vraagstukken": [
+                "vraagstuk.eenvoudig",
+                "vraagstuk.vast.herhaald",
+                "vraagstuk.vorm.binair",
+                "vraagstuk.breuken",
+                "vraagstuk.vorm.tertiair",
+                "vraagstuk.doordenkers"
+            ],
+            "problem-solving": [
+                "snelheid",
+                "krachten"
+            ]
+        },
+        "hoger-secundair-onderwijs": {
+            "vergelijkingen-tweede-graad": [
+                "vkv.volledig.1",
+                "vkv.volledig.2",
+                "vkv.onvolledig.1",
+                "vkv.onvolledig.2"
+            ],
+            "logica": [
+                "logica.niet",
+                "logica.samenstelling.1",
+                "logica.samenstelling.2"
+            ],
+            "stelsels": [
+                "stelsels.substitutie",
+                "stelsels.combinatie",
+                "stesels.breuken"
+            ],
+            "eerstegraadsfuncties": [
+                "eerstegraadsfunctie.bepalen.rico.en.punt.gegeven",
+                "eerstegraadsfunctie.bepalen.2punten.gegeven",
+                "eerstegraadsfunctie.bepalen"
+            ],
+            "hoeken-omrekenen": [
+                "hoeken.graad.naar.radiaal.1",
+                "hoeken.graad.naar.radiaal.2",
+                "hoeken.radiaal.naar.graad.1",
+                "hoeken.radiaal.naar.graad.2",
+                "hoeken.lengte.cirkelboog"
+            ],
+            "rationale.machten": [
+                "machten.rationaal.1",
+                "machten.rationaal.2",
+                "machten.rationaal.3",
+                "machten.rationaal.getallen"
+            ],
+            "logaritmen": [
+                "logaritmen.1",
+                "logaritmen.2",
+                "logaritmen.3",
+                "logaritmen.4",
+                "logaritmen.5"
+            ],
+            "complexe-getallen": [
+                "complexe.getallen.1",
+                "complexe.getallen.2",
+                "complexe.getallen.3",
+                "complexe.getallen.4",
+                "complexe.getallen.5"
+            ],
+            "goniometrie": [
+                "goniometrie.1"
+            ],
+            "functieonderzoek": [
+                "functieonderzoek.1"
+            ]
+        }
+    }
+}
