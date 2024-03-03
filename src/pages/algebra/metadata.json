@@ -1,30 +1,30 @@
 {
     "title": "algebra",
     "description": "This is the metadata for the chapter algebra",
-    "sections": [
-        {
+    "sections": {
+        "inleiding-veeltermen": {
             "title": "inleiding-veeltermen",
             "description": "This is the metadata for the section inleiding-veeltermen"
         },
-        {
+        "merkwaardige-producten": {
             "title": "merkwaardige-producten",
             "description": "This is the metadata for the section merkwaardige-producten"
         },
-        {
+        "problem-solving": {
             "title": "problem-solving",
             "description": "This is the metadata for the section problem-solving"
         },
-        {
+        "vergelijkingen-eerste-graad": {
             "title": "vergelijkingen-eerste-graad",
             "description": "This is the metadata for the section vergelijkingen-eerste-graad"
         },
-        {
+        "vertalen-omvormen": {
             "title": "vertalen-omvormen",
             "description": "This is the metadata for the section vertalen-omvormen"
         },
-        {
+        "vraagstukken": {
             "title": "vraagstukken",
             "description": "This is the metadata for the section vraagstukken"
         }
-    ]
+    }
 }

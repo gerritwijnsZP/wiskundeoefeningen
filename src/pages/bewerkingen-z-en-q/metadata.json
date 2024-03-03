@@ -1,42 +1,42 @@
 {
     "title": "bewerkingen-z-en-q",
     "description": "This is the metadata for the chapter bewerkingen-z-en-q",
-    "sections": [
-        {
+    "sections": {
+        "basis-breuken": {
             "title": "basis-breuken",
             "description": "This is the metadata for the section basis-breuken"
         },
-        {
+        "breuken-maal-en-delen": {
             "title": "breuken-maal-en-delen",
             "description": "This is the metadata for the section breuken-maal-en-delen"
         },
-        {
+        "breuken-plus-en-min": {
             "title": "breuken-plus-en-min",
             "description": "This is the metadata for the section breuken-plus-en-min"
         },
-        {
+        "gehele-getallen-maal-en-delen": {
             "title": "gehele-getallen-maal-en-delen",
             "description": "This is the metadata for the section gehele-getallen-maal-en-delen"
         },
-        {
+        "gehele-getallen-plus-en-min": {
             "title": "gehele-getallen-plus-en-min",
             "description": "This is the metadata for the section gehele-getallen-plus-en-min"
         },
-        {
+        "machten": {
             "title": "machten",
             "description": "This is the metadata for the section machten"
         },
-        {
+        "toepassing": {
             "title": "toepassing",
             "description": "This is the metadata for the section toepassing"
         },
-        {
+        "volgorde-van-bewerkingen": {
             "title": "volgorde-van-bewerkingen",
             "description": "This is the metadata for the section volgorde-van-bewerkingen"
         },
-        {
+        "wortels": {
             "title": "wortels",
             "description": "This is the metadata for the section wortels"
         }
-    ]
+    }
 }

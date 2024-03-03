@@ -1,46 +1,46 @@
 {
     "title": "hoger-secundair-onderwijs",
     "description": "This is the metadata for the chapter hoger-secundair-onderwijs",
-    "sections": [
-        {
+    "sections": {
+        "complexe-getallen": {
             "title": "complexe-getallen",
             "description": "This is the metadata for the section complexe-getallen"
         },
-        {
+        "eerstegraadsfuncties": {
             "title": "eerstegraadsfuncties",
             "description": "This is the metadata for the section eerstegraadsfuncties"
         },
-        {
+        "functieonderzoek": {
             "title": "functieonderzoek",
             "description": "This is the metadata for the section functieonderzoek"
         },
-        {
+        "goniometrie": {
             "title": "goniometrie",
             "description": "This is the metadata for the section goniometrie"
         },
-        {
+        "hoeken-omrekenen": {
             "title": "hoeken-omrekenen",
             "description": "This is the metadata for the section hoeken-omrekenen"
         },
-        {
+        "logaritmen": {
             "title": "logaritmen",
             "description": "This is the metadata for the section logaritmen"
         },
-        {
+        "logica": {
             "title": "logica",
             "description": "This is the metadata for the section logica"
         },
-        {
+        "rationale-machten": {
             "title": "rationale-machten",
             "description": "This is the metadata for the section rationale-machten"
         },
-        {
+        "stelsels": {
             "title": "stelsels",
             "description": "This is the metadata for the section stelsels"
         },
-        {
+        "vergelijkingen-tweede-graad": {
             "title": "vergelijkingen-tweede-graad",
             "description": "This is the metadata for the section vergelijkingen-tweede-graad"
         }
-    ]
+    }
 }
