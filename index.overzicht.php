@@ -310,10 +310,7 @@ $meetkunde = array(
 $order = json_decode(file_get_contents('src/pages/metadata.json'), true)["order"];
 $pages = array();
 $chapters = array_diff(scandir('src/pages'), array('..', '.'), array('metadata.json'));
-foreach ($order as $chapter) {
-	echo '<pre>';
-	var_dump($chapter);
-	echo '</pre>';
+foreach ($order as $chapter => $data) {
 	$chapterMetadata = json_decode(file_get_contents('src/pages/' . $chapter . '/metadata.json'), true);
 	
 	$pages[$chapter] = array();
@@ -323,21 +320,17 @@ foreach ($order as $chapter) {
 
 	$sections = array_diff(scandir('src/pages/' . $chapter), array('..', '.'), array('metadata.json'));
 	foreach ($sections as $section) {
-		$pages[$chapter][$section] = array();
+		$pages[$chapter]['sections'][$section] = array();
 
-		$pages[$chapter][$section]['title'] = $chapterMetadata['sections'][$section]['title'];
-		$pages[$chapter][$section]['description'] = $chapterMetadata['sections'][$section]['description'];
+		$pages[$chapter]['sections'][$section]['title'] = $chapterMetadata['sections'][$section]['title'];
+		$pages[$chapter]['sections'][$section]['description'] = $chapterMetadata['sections'][$section]['description'];
 		
 		$exercises = array_diff(scandir('src/pages/' . $chapter . '/' . $section), array('..', '.'));
 		foreach ($exercises as $exercise) {
-			$pages[$chapter][$section]['exercises'][] = $exercise;
+			$pages[$chapter]['sections'][$section]['exercises'][] = $exercise;
 		}
 	}
 }
-
-// echo '<pre>';
-// var_dump($pages);
-// echo '</pre>';
 
 //Voorbereiding rest
 $deel = "";
@@ -448,5 +441,7 @@ if ($menurij != '') {
 }
 //Dat was 't.
 $menu .= "</div>";
-$inhoudsopgave = "<ol style='list-style-type: upper-roman;'><li>" . implode("</li><li>", $inhoudsopgave) . "</li></ol>";
+$inhoudsopgave = "<ol style='list-style-type: upper-roman;'>
+					<li>" . implode("</li><li>", $inhoudsopgave) . "</li>
+				</ol>";
 ?>
