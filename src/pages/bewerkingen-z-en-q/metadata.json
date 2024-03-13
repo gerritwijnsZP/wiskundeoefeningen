@@ -5,204 +5,204 @@
 		"basis-breuken": {
 			"title": "basis-breuken",
 			"description": "This is the metadata for the section basis-breuken",
-			"exercises": [
-				{
+			"exercises": {
+				"grootste.gemene.deler": {
 					"title": "grootste.gemene.deler",
 					"description": "This is the metadata for the exercise grootste.gemene.deler"
 				},
-				{
+				"breuken.vereenvoudig.op.zich": {
 					"title": "breuken.vereenvoudig.op.zich",
 					"description": "This is the metadata for the exercise breuken.vereenvoudig.op.zich"
 				},
-				{
+				"breuken.vereenvoudig": {
 					"title": "breuken.vereenvoudig",
 					"description": "This is the metadata for the exercise breuken.vereenvoudig"
 				},
-				{
+				"decimaal2breuk": {
 					"title": "decimaal2breuk",
 					"description": "This is the metadata for the exercise decimaal2breuk"
 				},
-				{
+				"rationaal.order": {
 					"title": "rationaal.order",
 					"description": "This is the metadata for the exercise rationaal.order"
 				}
-			]
+			}
 		},
 		"breuken-maal-en-delen": {
 			"title": "breuken-maal-en-delen",
 			"description": "This is the metadata for the section breuken-maal-en-delen",
-			"exercises": [
-				{
+			"exercises": {
+				"breuken.vermenigvuldigen.pos": {
 					"title": "breuken.vermenigvuldigen.pos",
 					"description": "This is the metadata for the exercise breuken.vermenigvuldigen.pos"
 				},
-				{
+				"breuken.vermenigvuldigen": {
 					"title": "breuken.vermenigvuldigen",
 					"description": "This is the metadata for the exercise breuken.vermenigvuldigen"
 				},
-				{
+				"breuken.vermenigvuldigen.3": {
 					"title": "breuken.vermenigvuldigen.3",
 					"description": "This is the metadata for the exercise breuken.vermenigvuldigen.3"
 				},
-				{
+				"breuken.delen": {
 					"title": "breuken.delen",
 					"description": "This is the metadata for the exercise breuken.delen"
 				},
-				{
+				"breuken.delen.2": {
 					"title": "breuken.delen.2",
 					"description": "This is the metadata for the exercise breuken.delen.2"
 				}
-			]
+			}
 		},
 		"breuken-plus-en-min": {
 			"title": "breuken-plus-en-min",
 			"description": "This is the metadata for the section breuken-plus-en-min",
-			"exercises": [
-				{
+			"exercises": {
+				"breuken.optellen.pos": {
 					"title": "breuken.optellen.pos",
 					"description": "This is the metadata for the exercise breuken.optellen.pos"
 				},
-				{
+				"breuken.aftrekken": {
 					"title": "breuken.aftrekken",
 					"description": "This is the metadata for the exercise breuken.aftrekken"
 				},
-				{
+				"breuken.optellen": {
 					"title": "breuken.optellen",
 					"description": "This is the metadata for the exercise breuken.optellen"
 				},
-				{
+				"breuken.aftrekken.2": {
 					"title": "breuken.aftrekken.2",
 					"description": "This is the metadata for the exercise breuken.aftrekken.2"
 				},
-				{
+				"breuken.haakjes.1": {
 					"title": "breuken.haakjes.1",
 					"description": "This is the metadata for the exercise breuken.haakjes.1"
 				},
-				{
+				"breuken.haakjes.2": {
 					"title": "breuken.haakjes.2",
 					"description": "This is the metadata for the exercise breuken.haakjes.2"
 				}
-			]
+			}
 		},
 		"gehele-getallen-maal-en-delen": {
 			"title": "gehele-getallen-maal-en-delen",
 			"description": "This is the metadata for the section gehele-getallen-maal-en-delen",
-			"exercises": [
-				{
+			"exercises": {
+				"geheel.vermenigvuldigen.delen.1": {
 					"title": "geheel.vermenigvuldigen.delen.1",
 					"description": "This is the metadata for the exercise geheel.vermenigvuldigen.delen.1"
 				},
-				{
+				"geheel.vermenigvuldigen.delen.2": {
 					"title": "geheel.vermenigvuldigen.delen.2",
 					"description": "This is the metadata for the exercise geheel.vermenigvuldigen.delen.2"
 				}
-			]
+			}
 		},
 		"gehele-getallen-plus-en-min": {
 			"title": "gehele-getallen-plus-en-min",
 			"description": "This is the metadata for the section gehele-getallen-plus-en-min",
-			"exercises": [
-				{
+			"exercises": {
+				"geheel.optellen.aftrekken.1": {
 					"title": "geheel.optellen.aftrekken.1",
 					"description": "This is the metadata for the exercise geheel.optellen.aftrekken.1"
 				},
-				{
+				"geheel.haakjesregel": {
 					"title": "geheel.haakjesregel",
 					"description": "This is the metadata for the exercise geheel.haakjesregel"
 				},
-				{
+				"geheel.optellen.aftrekken.2": {
 					"title": "geheel.optellen.aftrekken.2",
 					"description": "This is the metadata for the exercise geheel.optellen.aftrekken.2"
 				},
-				{
+				"geheel.optellen.aftrekken.3": {
 					"title": "geheel.optellen.aftrekken.3",
 					"description": "This is the metadata for the exercise geheel.optellen.aftrekken.3"
 				}
-			]
+			}
 		},
 		"machten": {
 			"title": "machten",
 			"description": "This is the metadata for the section machten",
-			"exercises": [
-				{
+			"exercises": {
+				"machten.regenboogtabel": {
 					"title": "machten.regenboogtabel",
 					"description": "This is the metadata for the exercise machten.regenboogtabel"
 				},
-				{
+				"machten.0": {
 					"title": "machten.0",
 					"description": "This is the metadata for the exercise machten.0"
 				},
-				{
+				"machten.1": {
 					"title": "machten.1",
 					"description": "This is the metadata for the exercise machten.1"
 				},
-				{
+				"machten.2": {
 					"title": "machten.2",
 					"description": "This is the metadata for the exercise machten.2"
 				},
-				{
+				"machten.3": {
 					"title": "machten.3",
 					"description": "This is the metadata for the exercise machten.3"
 				},
-				{
+				"machten": {
 					"title": "machten",
 					"description": "This is the metadata for the exercise machten"
 				}
-			]
+			}
 		},
 		"toepassing": {
 			"title": "toepassing",
 			"description": "This is the metadata for the section toepassing",
-			"exercises": [
-				{
+			"exercises": {
+				"wetenschappelijke.notatie": {
 					"title": "wetenschappelijke.notatie",
 					"description": "This is the metadata for the exercise wetenschappelijke.notatie"
 				},
-				{
+				"eenheden": {
 					"title": "eenheden",
 					"description": "This is the metadata for the exercise eenheden"
 				}
-			]
+			}
 		},
 		"volgorde-van-bewerkingen": {
 			"title": "volgorde-van-bewerkingen",
 			"description": "This is the metadata for the section volgorde-van-bewerkingen",
-			"exercises": [
-				{
+			"exercises": {
+				"volgorde.geheel": {
 					"title": "volgorde.geheel",
 					"description": "This is the metadata for the exercise volgorde.geheel"
 				},
-				{
+				"volgorde": {
 					"title": "volgorde",
 					"description": "This is the metadata for the exercise volgorde"
 				}
-			]
+			}
 		},
 		"wortels": {
 			"title": "wortels",
 			"description": "This is the metadata for the section wortels",
-			"exercises": [
-				{
+			"exercises": {
+				"wortel.rekenen": {
 					"title": "wortel.rekenen",
 					"description": "This is the metadata for the exercise wortel.rekenen"
 				},
-				{
+				"wortel.rekenen.2": {
 					"title": "wortel.rekenen.2",
 					"description": "This is the metadata for the exercise wortel.rekenen.2"
 				},
-				{
+				"wortel.rekenen.3": {
 					"title": "wortel.rekenen.3",
 					"description": "This is the metadata for the exercise wortel.rekenen.3"
 				},
-				{
+				"wortel.rekenen.4": {
 					"title": "wortel.rekenen.4",
 					"description": "This is the metadata for the exercise wortel.rekenen.4"
 				},
-				{
+				"wortel.rekenen.5":{
 					"title": "wortel.rekenen.5",
 					"description": "This is the metadata for the exercise wortel.rekenen.5"
 				}
-			]
+			}
 		}
 	}
 }

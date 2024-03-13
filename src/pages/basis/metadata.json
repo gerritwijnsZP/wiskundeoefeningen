@@ -1,154 +1,170 @@
 {
-	"title": "basis",
+	"title": "Basis",
 	"description": "This is the metadata for the chapter basis",
 	"sections": {
 		"basis-optellen": {
 			"title": "basis-optellen",
 			"description": "This is the metadata for the section basis-optellen",
-			"exercises": [
-				{
+			"exercises": {
+				"plus.5": {
 					"title": "plus.5",
 					"description": "This is the metadata for the excercise plus.5"
 				},
-				{
+				"plus.10": {
 					"title": "plus.10",
 					"description": "This is the metadata for the excercise plus.10"
 				},
-				{
+				"plus.brug.10": {
+					"title": "plus.brug.10",
+					"description": "This is the metadata for the excercise plus.brug.10"
+				},
+				"plus.brug.over.10": {
 					"title": "plus.brug.over.10",
 					"description": "This is the metadata for the excercise plus.brug.over.10"
 				},
-				{
+				"plus.brug.over.10.bis": {
+					"title": "plus.brug.over.10.bis",
+					"description": "This is the metadata for the excercise plus.brug.over.10.bis"
+				},
+				"plus.20": {
 					"title": "plus.20",
 					"description": "This is the metadata for the excercise plus.20"
 				},
-				{
+				"plus.brug.10voud": {
 					"title": "plus.brug.10voud",
 					"description": "This is the metadata for the excercise plus.brug.10voud"
 				},
-				{
+				"plus.brug.tot.100": {
+					"title": "plus.brug.tot.100",
+					"description": "This is the metadata for the excercise plus.brug.tot.100"
+				},
+				"plus.brug.10vouden": {
+					"title": "plus.brug.10vouden",
+					"description": "This is the metadata for the excercise plus.brug.10vouden"
+				},
+				"plus.brug": {
 					"title": "plus.brug",
 					"description": "This is the metadata for the excercise plus.brug"
 				},
-				{
+				"plus.brug.mix": {
 					"title": "plus.brug.mix",
 					"description": "This is the metadata for the excercise plus.brug.mix"
 				}
-			]
+			}
 		},
 		"bgl-6.1": {
 			"title": "bgl-6.1",
 			"description": "This is the metadata for the section bgl-6.1",
-			"exercises": [
-				{
+			"exercises": {
+				"basisgeletterdheid.breuken.1": {
 					"title": "basisgeletterdheid.breuken.1",
 					"description": "This is the metadata for the excercise basisgeletterdheid.breuken.1"
 				},
-				{
+				"basisgeletterdheid.breuken.2": {
 					"title": "basisgeletterdheid.breuken.2",
 					"description": "This is the metadata for the excercise basisgeletterdheid.breuken.2"
 				},
-				{
+				"basisgeletterdheid.breuken.3": {
 					"title": "basisgeletterdheid.breuken.3",
 					"description": "This is the metadata for the excercise basisgeletterdheid.breuken.3"
 				},
-				{
+				"basisgeletterdheid.breuken.4": {
 					"title": "basisgeletterdheid.breuken.4",
 					"description": "This is the metadata for the excercise basisgeletterdheid.breuken.4"
 				}
-			]
+			}
 		},
 		"bgl-6.3": {
 			"title": "bgl-6.3",
 			"description": "This is the metadata for the section bgl-6.3",
-			"exercises": [
-				{
+			"exercises": {
+				"basisgeletterdheid.eenheden.1": {
 					"title": "basisgeletterdheid.eenheden.1",
 					"description": "This is the metadata for the excercise basisgeletterdheid.eenheden.1"
 				},
-				{
+				"basisgeletterdheid.eenheden.2": {
 					"title": "basisgeletterdheid.eenheden.2",
 					"description": "This is the metadata for the excercise basisgeletterdheid.eenheden.2"
 				},
-				{
+				"basisgeletterdheid.eenheden.3": {
 					"title": "basisgeletterdheid.eenheden.3",
 					"description": "This is the metadata for the excercise basisgeletterdheid.eenheden.3"
 				},
-				{
+				"basisgeletterdheid.eenheden.4": {
 					"title": "basisgeletterdheid.eenheden.4",
 					"description": "This is the metadata for the excercise basisgeletterdheid.eenheden.4"
 				}
-			]
+			}
 		},
 		"bgl-6.5-6.6": {
 			"title": "bgl-6.5-6.6",
 			"description": "This is the metadata for the section bgl-6.5-6.6",
-			"exercises": [
-				{
+			"exercises": {
+				"basisgeletterdheid.rechthoek": {
 					"title": "basisgeletterdheid.rechthoek",
 					"description": "This is the metadata for the excercise basisgeletterdheid.rechthoek"
 				}
-			]
+			}
 		},
 		"statistiek": {
 			"title": "statistiek",
 			"description": "This is the metadata for the section statistiek",
-			"exercises": [
-				{
+			"exercises": {
+				"statistiek.gemiddelde": {
 					"title": "statistiek.gemiddelde",
 					"description": "This is the metadata for the excercise statistiek.gemiddelde"
 				},
-				{
+				"statistiek.mediaan": {
 					"title": "statistiek.mediaan",
 					"description": "This is the metadata for the excercise statistiek.mediaan"
 				}
-			]
+			}
 		},
 		"tafels": {
 			"title": "tafels",
 			"description": "This is the metadata for the section tafels",
-			"exercises": [
-				{
+			"exercises": {
+				"tafels.2": {
 					"title": "tafels.2",
 					"description": "This is the metadata for the excercise tafels.2"
 				},
-				{
+				"tafels.3": {
 					"title": "tafels.3",
 					"description": "This is the metadata for the excercise tafels.3"
 				},
-				{
+				"tafels.4": {
 					"title": "tafels.4",
 					"description": "This is the metadata for the excercise tafels.4"
 				},
-				{
+				"tafels.5": {
 					"title": "tafels.5",
 					"description": "This is the metadata for the excercise tafels.5"
 				},
-				{
+				"tafels.6": {
 					"title": "tafels.6",
 					"description": "This is the metadata for the excercise tafels.6"
 				},
-				{
+				"tafels.7": {
 					"title": "tafels.7",
 					"description": "This is the metadata for the excercise tafels.7"
 				},
-				{
+				"tafels.8": {
 					"title": "tafels.8",
 					"description": "This is the metadata for the excercise tafels.8"
 				},
-				{
+				"tafels.9": {
 					"title": "tafels.9",
 					"description": "This is the metadata for the excercise tafels.9"
 				},
-				{
+				"tafels.10": {
 					"title": "tafels.10",
 					"description": "This is the metadata for the excercise tafels.10"
 				},
-				{
+				"tafels": {
 					"title": "tafels",
 					"description": "This is the metadata for the excercise tafels"
 				}
-			]
+			}
 		}
 	}
 }
