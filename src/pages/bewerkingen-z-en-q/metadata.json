@@ -1,42 +1,208 @@
 {
-    "title": "Bewerkingen in \\(\\mathbb{Z}\\) en \\(\\mathbb{Q}\\)",
-    "description": "This is the metadata for the chapter bewerkingen-z-en-q",
-    "sections": {
-        "basis-breuken": {
-            "title": "basis-breuken",
-            "description": "This is the metadata for the section basis-breuken"
-        },
-        "breuken-maal-en-delen": {
-            "title": "breuken-maal-en-delen",
-            "description": "This is the metadata for the section breuken-maal-en-delen"
-        },
-        "breuken-plus-en-min": {
-            "title": "breuken-plus-en-min",
-            "description": "This is the metadata for the section breuken-plus-en-min"
-        },
-        "gehele-getallen-maal-en-delen": {
-            "title": "gehele-getallen-maal-en-delen",
-            "description": "This is the metadata for the section gehele-getallen-maal-en-delen"
-        },
-        "gehele-getallen-plus-en-min": {
-            "title": "gehele-getallen-plus-en-min",
-            "description": "This is the metadata for the section gehele-getallen-plus-en-min"
-        },
-        "machten": {
-            "title": "machten",
-            "description": "This is the metadata for the section machten"
-        },
-        "toepassing": {
-            "title": "toepassing",
-            "description": "This is the metadata for the section toepassing"
-        },
-        "volgorde-van-bewerkingen": {
-            "title": "volgorde-van-bewerkingen",
-            "description": "This is the metadata for the section volgorde-van-bewerkingen"
-        },
-        "wortels": {
-            "title": "wortels",
-            "description": "This is the metadata for the section wortels"
-        }
-    }
+	"title": "Bewerkingen in \\(\\mathbb{Z}\\) en \\(\\mathbb{Q}\\)",
+	"description": "This is the metadata for the chapter bewerkingen-z-en-q",
+	"sections": {
+		"basis-breuken": {
+			"title": "basis-breuken",
+			"description": "This is the metadata for the section basis-breuken",
+			"exercises": [
+				{
+					"title": "grootste.gemene.deler",
+					"description": "This is the metadata for the exercise grootste.gemene.deler"
+				},
+				{
+					"title": "breuken.vereenvoudig.op.zich",
+					"description": "This is the metadata for the exercise breuken.vereenvoudig.op.zich"
+				},
+				{
+					"title": "breuken.vereenvoudig",
+					"description": "This is the metadata for the exercise breuken.vereenvoudig"
+				},
+				{
+					"title": "decimaal2breuk",
+					"description": "This is the metadata for the exercise decimaal2breuk"
+				},
+				{
+					"title": "rationaal.order",
+					"description": "This is the metadata for the exercise rationaal.order"
+				}
+			]
+		},
+		"breuken-maal-en-delen": {
+			"title": "breuken-maal-en-delen",
+			"description": "This is the metadata for the section breuken-maal-en-delen",
+			"exercises": [
+				{
+					"title": "breuken.vermenigvuldigen.pos",
+					"description": "This is the metadata for the exercise breuken.vermenigvuldigen.pos"
+				},
+				{
+					"title": "breuken.vermenigvuldigen",
+					"description": "This is the metadata for the exercise breuken.vermenigvuldigen"
+				},
+				{
+					"title": "breuken.vermenigvuldigen.3",
+					"description": "This is the metadata for the exercise breuken.vermenigvuldigen.3"
+				},
+				{
+					"title": "breuken.delen",
+					"description": "This is the metadata for the exercise breuken.delen"
+				},
+				{
+					"title": "breuken.delen.2",
+					"description": "This is the metadata for the exercise breuken.delen.2"
+				}
+			]
+		},
+		"breuken-plus-en-min": {
+			"title": "breuken-plus-en-min",
+			"description": "This is the metadata for the section breuken-plus-en-min",
+			"exercises": [
+				{
+					"title": "breuken.optellen.pos",
+					"description": "This is the metadata for the exercise breuken.optellen.pos"
+				},
+				{
+					"title": "breuken.aftrekken",
+					"description": "This is the metadata for the exercise breuken.aftrekken"
+				},
+				{
+					"title": "breuken.optellen",
+					"description": "This is the metadata for the exercise breuken.optellen"
+				},
+				{
+					"title": "breuken.aftrekken.2",
+					"description": "This is the metadata for the exercise breuken.aftrekken.2"
+				},
+				{
+					"title": "breuken.haakjes.1",
+					"description": "This is the metadata for the exercise breuken.haakjes.1"
+				},
+				{
+					"title": "breuken.haakjes.2",
+					"description": "This is the metadata for the exercise breuken.haakjes.2"
+				}
+			]
+		},
+		"gehele-getallen-maal-en-delen": {
+			"title": "gehele-getallen-maal-en-delen",
+			"description": "This is the metadata for the section gehele-getallen-maal-en-delen",
+			"exercises": [
+				{
+					"title": "geheel.vermenigvuldigen.delen.1",
+					"description": "This is the metadata for the exercise geheel.vermenigvuldigen.delen.1"
+				},
+				{
+					"title": "geheel.vermenigvuldigen.delen.2",
+					"description": "This is the metadata for the exercise geheel.vermenigvuldigen.delen.2"
+				}
+			]
+		},
+		"gehele-getallen-plus-en-min": {
+			"title": "gehele-getallen-plus-en-min",
+			"description": "This is the metadata for the section gehele-getallen-plus-en-min",
+			"exercises": [
+				{
+					"title": "geheel.optellen.aftrekken.1",
+					"description": "This is the metadata for the exercise geheel.optellen.aftrekken.1"
+				},
+				{
+					"title": "geheel.haakjesregel",
+					"description": "This is the metadata for the exercise geheel.haakjesregel"
+				},
+				{
+					"title": "geheel.optellen.aftrekken.2",
+					"description": "This is the metadata for the exercise geheel.optellen.aftrekken.2"
+				},
+				{
+					"title": "geheel.optellen.aftrekken.3",
+					"description": "This is the metadata for the exercise geheel.optellen.aftrekken.3"
+				}
+			]
+		},
+		"machten": {
+			"title": "machten",
+			"description": "This is the metadata for the section machten",
+			"exercises": [
+				{
+					"title": "machten.regenboogtabel",
+					"description": "This is the metadata for the exercise machten.regenboogtabel"
+				},
+				{
+					"title": "machten.0",
+					"description": "This is the metadata for the exercise machten.0"
+				},
+				{
+					"title": "machten.1",
+					"description": "This is the metadata for the exercise machten.1"
+				},
+				{
+					"title": "machten.2",
+					"description": "This is the metadata for the exercise machten.2"
+				},
+				{
+					"title": "machten.3",
+					"description": "This is the metadata for the exercise machten.3"
+				},
+				{
+					"title": "machten",
+					"description": "This is the metadata for the exercise machten"
+				}
+			]
+		},
+		"toepassing": {
+			"title": "toepassing",
+			"description": "This is the metadata for the section toepassing",
+			"exercises": [
+				{
+					"title": "wetenschappelijke.notatie",
+					"description": "This is the metadata for the exercise wetenschappelijke.notatie"
+				},
+				{
+					"title": "eenheden",
+					"description": "This is the metadata for the exercise eenheden"
+				}
+			]
+		},
+		"volgorde-van-bewerkingen": {
+			"title": "volgorde-van-bewerkingen",
+			"description": "This is the metadata for the section volgorde-van-bewerkingen",
+			"exercises": [
+				{
+					"title": "volgorde.geheel",
+					"description": "This is the metadata for the exercise volgorde.geheel"
+				},
+				{
+					"title": "volgorde",
+					"description": "This is the metadata for the exercise volgorde"
+				}
+			]
+		},
+		"wortels": {
+			"title": "wortels",
+			"description": "This is the metadata for the section wortels",
+			"exercises": [
+				{
+					"title": "wortel.rekenen",
+					"description": "This is the metadata for the exercise wortel.rekenen"
+				},
+				{
+					"title": "wortel.rekenen.2",
+					"description": "This is the metadata for the exercise wortel.rekenen.2"
+				},
+				{
+					"title": "wortel.rekenen.3",
+					"description": "This is the metadata for the exercise wortel.rekenen.3"
+				},
+				{
+					"title": "wortel.rekenen.4",
+					"description": "This is the metadata for the exercise wortel.rekenen.4"
+				},
+				{
+					"title": "wortel.rekenen.5",
+					"description": "This is the metadata for the exercise wortel.rekenen.5"
+				}
+			]
+		}
+	}
 }

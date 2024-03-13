@@ -1,30 +1,150 @@
 {
-    "title": "Algebra",
-    "description": "This is the metadata for the chapter algebra",
-    "sections": {
-        "inleiding-veeltermen": {
-            "title": "inleiding-veeltermen",
-            "description": "This is the metadata for the section inleiding-veeltermen"
-        },
-        "merkwaardige-producten": {
-            "title": "merkwaardige-producten",
-            "description": "This is the metadata for the section merkwaardige-producten"
-        },
-        "problem-solving": {
-            "title": "problem-solving",
-            "description": "This is the metadata for the section problem-solving"
-        },
-        "vergelijkingen-eerste-graad": {
-            "title": "vergelijkingen-eerste-graad",
-            "description": "This is the metadata for the section vergelijkingen-eerste-graad"
-        },
-        "vertalen-omvormen": {
-            "title": "vertalen-omvormen",
-            "description": "This is the metadata for the section vertalen-omvormen"
-        },
-        "vraagstukken": {
-            "title": "vraagstukken",
-            "description": "This is the metadata for the section vraagstukken"
-        }
-    }
+	"title": "algebra",
+	"description": "This is the metadata for the chapter algebra",
+	"sections": {
+		"inleiding-veeltermen": {
+			"title": "inleiding-veeltermen",
+			"description": "This is the metadata for the section inleiding-veeltermen",
+			"exercises": [
+				{
+					"title": "lettervorm.herleiden",
+					"description": "This is the metadata for the exercise lettervorm.herleiden"
+				},
+				{
+					"title": "lettervorm.getalwaarde",
+					"description": "This is the metadata for the exercise lettervorm.getalwaarde"
+				},
+				{
+					"title": "lettervorm.distributiviteit",
+					"description": "This is the metadata for the exercise lettervorm.distributiviteit"
+				},
+				{
+					"title": "distributiviteit",
+					"description": "This is the metadata for the exercise distributiviteit"
+				},
+				{
+					"title": "veeltermen.bewerkingen.geheel",
+					"description": "This is the metadata for the exercise veeltermen.bewerkingen.geheel"
+				}
+			]
+		},
+		"merkwaardige-producten": {
+			"title": "merkwaardige-producten",
+			"description": "This is the metadata for the section merkwaardige-producten",
+			"exercises": [
+				{
+					"title": "merkwaardige.producten",
+					"description": "This is the metadata for the exercise merkwaardige.producten"
+				},
+				{
+					"title": "mp.ontbinden.factoren",
+					"description": "This is the metadata for the exercise mp.ontbinden.factoren"
+				},
+				{
+					"title": "ontbinden.factoren",
+					"description": "This is the metadata for the exercise ontbinden.factoren"
+				},
+				{
+					"title": "ontbinden.factoren.2",
+					"description": "This is the metadata for the exercise ontbinden.factoren.2"
+				}
+			]
+		},
+		"problem-solving": {
+			"title": "problem-solving",
+			"description": "This is the metadata for the section problem-solving",
+			"exercises": [
+				{
+					"title": "snelheid",
+					"description": "This is the metadata for the exercise snelheid"
+				},
+				{
+					"title": "krachten",
+					"description": "This is the metadata for the exercise krachten"
+				}
+			]
+		},
+		"vergelijkingen-eerste-graad": {
+			"title": "vergelijkingen-eerste-graad",
+			"description": "This is the metadata for the section vergelijkingen-eerste-graad",
+			"exercises": [
+				{
+					"title": "vgl.1.1",
+					"description": "This is the metadata for the exercise vgl.1.1"
+				},
+				{
+					"title": "vgl.1.2",
+					"description": "This is the metadata for the exercise vgl.1.2"
+				},
+				{
+					"title": "vgl.1.3",
+					"description": "This is the metadata for the exercise vgl.1.3"
+				},
+				{
+					"title": "vgl.1.4",
+					"description": "This is the metadata for the exercise vgl.1.4"
+				},
+				{
+					"title": "vgl.1.5",
+					"description": "This is the metadata for the exercise vgl.1.5"
+				}
+			]
+		},
+		"vertalen-omvormen": {
+			"title": "vertalen-omvormen",
+			"description": "This is the metadata for the section vertalen-omvormen",
+			"exercises": [
+				{
+					"title": "wiskundetaal",
+					"description": "This is the metadata for the exercise wiskundetaal"
+				},
+				{
+					"title": "formules.omvormen",
+					"description": "This is the metadata for the exercise formules.omvormen"
+				},
+				{
+					"title": "vgl1.6-wiskundetaal",
+					"description": "This is the metadata for the exercise vgl1.6-wiskundetaal"
+				},
+				{
+					"title": "vrgstk1.1",
+					"description": "This is the metadata for the exercise vrgstk1.1"
+				},
+				{
+					"title": "python.def",
+					"description": "This is the metadata for the exercise python.def"
+				}
+			]
+		},
+		"vraagstukken": {
+			"title": "vraagstukken",
+			"description": "This is the metadata for the section vraagstukken",
+			"exercises": [
+				{
+					"title": "vraagstuk.eenvoudig",
+					"description": "This is the metadata for the exercise vraagstuk.eenvoudig"
+				},
+				{
+					"title": "vraagstuk.vast.herhaald",
+					"description": "This is the metadata for the exercise vraagstuk.vast.herhaald"
+				},
+				{
+					"title": "vraagstuk.vorm.binair",
+					"description": "This is the metadata for the exercise vraagstuk.vorm.binair"
+				},
+				{
+					"title": "vraagstuk.breuken",
+					"description": "This is the metadata for the exercise vraagstuk.breuken"
+				},
+				{
+					"title": "vraagstuk.vorm.tertiair",
+					"description": "This is the metadata for the exercise vraagstuk.vorm.tertiair"
+				},
+				{
+					"title": "vraagstuk.doordenkers",
+					"description": "This is the metadata for the exercise vraagstuk.doordenkers"
+				}
+			]
+		}
+	}
 }

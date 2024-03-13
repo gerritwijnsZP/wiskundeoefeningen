@@ -34,6 +34,8 @@
 	}
 </style>
 <?php
+require LIB . "/metadata-parser.php";
+
 $paginas = array(
 	// DONE
 	"BSS" => array("Titel" => "@Basis"),
@@ -346,13 +348,15 @@ $is_meetkunde_new_row = false;
 $stijl = '';
 $menurij = "";
 $txt = '';
-//Loop over alle paginas
 $alles = array_merge($paginas, $meetkunde);
+
 foreach ($alles as $pagina => $data) {
+
 	if ($pagina == "#meetkunde") {
 		$is_meetkunde = true;
 		continue;
 	}
+
 	if ($data["Titel"][0] == "@") {
 		$deel = $pagina;
 		if ($txt != '') {
@@ -378,6 +382,7 @@ foreach ($alles as $pagina => $data) {
 		array_push($inhoudsopgave, "<a href='#$pagina'>" . ltrim($data["Titel"], "@") . "</a>");
 		continue;
 	}
+
 	//Als je een rubriektitel tegenkomt
 	if ($data["Titel"][0] == "#") {
 		//Onthoud welk deel dit is en voeg als broldata toe aan $blokken
@@ -433,6 +438,7 @@ foreach ($alles as $pagina => $data) {
 	array_push($blokken[$deel]["reeksen"], $pagina);
 	$aantal_oefeningenreeksen += 1;
 }
+
 if ($menurij != '') {
 	//Als je op 't einde bent en 
 	//je hebt nog een menurij staan die toevallig geen drie volledige blokken bevat, 
