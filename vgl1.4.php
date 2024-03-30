@@ -37,17 +37,15 @@ class Fabriek extends OefeningFactory
 		//kgv
 		$kgv		= kgv($a, kgv($bc->noemer, $de->noemer));
 		$oplossing 	= "\\text{".$kgv." is het kleinste gemene veelvoud van ".$a.", ".$bc->noemer." en ".$de->noemer . "} \\\\ ";
+		$oplossing	.= "\\begin{align} & ". $linkerlid ."& = & " .$rechterlid. " \\\\";
+		
 		//kgv bij bewerking
-		$linkerlid 	= color('blue',$kgv.'.')."(\\frac{".$x."}{".$a."}" .p($t,0) . $bc . ")";
-		$rechterlid	= "(".$de.$x . p($f,2).")".color('blue','.'.$kgv);
-		$oplossing 	.= "\\begin{align} & ". $linkerlid ."& = & " .$rechterlid. " \\\\";
-		
-		//Extra tussenstap op vraag van Juanita en Lode
-		
-		$linkerlid 	= "\\frac{".color('blue',$kgv.'.').$x."}{".$a."}" .p($t,0) ."\\frac{" . color('blue',$kgv.'.'). $bc->teller . "}{".$bc->noemer."}";
-		$rechterlid	= "\\frac{".$de->teller.".".color('blue',$kgv)."}{".$de->noemer."}".$x .p($f,2) .".". color('blue',$kgv);
+		$linkerlid 	= color('blue',$kgv.'.')."(\\frac{".($kgv/$a).$x."}{".color('blue',$kgv)."}" .p($t,0) . "
+						\\frac{ ".$kgv/$bc->noemer*$bc->teller." }{".color('blue',$kgv)."}" . ")";
+		$rechterlid	= "("."\\frac{".$kgv/$de->noemer*$de->teller."}{".color('blue',$kgv)."}".$x . ($f < 0 ? '-' : '+') . "\\frac{".abs($f)*$kgv."}{".color('blue',$kgv)."}".")
+						".color('blue','.'.$kgv);
 		$oplossing 	.= "\\Leftrightarrow & ". $linkerlid ."& = & " .$rechterlid. " \\\\";
-
+		
 		//Distributiviteit, breuken vallen weg YES!
 		//rx + s = ux + v
 		$xa = new R($kgv, $a); $xa->haakjes(False); $xa->vereenvoudig();
