@@ -41,7 +41,14 @@ class Fabriek extends OefeningFactory
 		$linkerlid 	= color('blue',$kgv.'.')."(\\frac{".$x."}{".$a."}" .p($t,0) . $bc . ")";
 		$rechterlid	= "(".$de.$x . p($f,2).")".color('blue','.'.$kgv);
 		$oplossing 	.= "\\begin{align} & ". $linkerlid ."& = & " .$rechterlid. " \\\\";
-		//Distributiviteit, breuken vallen wel YES!
+		
+		//Extra tussenstap op vraag van Juanita en Lode
+		
+		$linkerlid 	= "\\frac{".color('blue',$kgv.'.').$x."}{".$a."}" .p($t,0) ."\\frac{" . color('blue',$kgv.'.'). $bc->teller . "}{".$bc->noemer."}";
+		$rechterlid	= "\\frac{".$de->teller.".".color('blue',$kgv)."}{".$de->noemer."}".$x .p($f,2) .".". color('blue',$kgv);
+		$oplossing 	.= "\\Leftrightarrow & ". $linkerlid ."& = & " .$rechterlid. " \\\\";
+
+		//Distributiviteit, breuken vallen weg YES!
 		//rx + s = ux + v
 		$xa = new R($kgv, $a); $xa->haakjes(False); $xa->vereenvoudig();
 		$r  = $xa->teller;
