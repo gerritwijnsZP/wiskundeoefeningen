@@ -36,6 +36,20 @@ function copriem($a, $van=2, $tot=20)
 	if(abs($a)==1)
 	{ return random_int($van,$tot);	} //Onmogelijke shit
 	$teller = 0;
+	$low 	= min($van,$tot);
+	$diff 	= abs($tot - $van);
+	$lucky	= random_int(0,$diff);
+	for($i=0;$i<$diff;$i++)
+	{
+		$b = $low + (($lucky + $i) % $diff);
+		if(ggd($a,$b)==1)
+		{
+			break;
+		}
+	}
+	return $b;
+	//throw new Exception('onmogelijke aanvraag copriem');
+	/*
 	while(True)
 	{
 		$teller++;
@@ -47,13 +61,33 @@ function copriem($a, $van=2, $tot=20)
 		{
 			break;
 		}
+		$teller++;
+		$b = ($b + 1) % $tot;
 		if($teller > 20){throw new Exception('onmogelijke aanvraag copriem');}
 	}
 	return $b;
+	*/
 }
 
 function nietnulcopriem($a, $van = 2, $tot = 20)
 {
+	if(abs($a)==1)
+	{ return random_int($van,$tot);	} //Onmogelijke shit
+	$teller = 0;
+	$low 	= min($van,$tot);
+	$diff 	= abs($tot - $van);
+	$lucky	= random_int(0,$diff);
+	for($i=0;$i<$diff;$i++)
+	{
+		$b = $low + (($lucky + $i) % $diff);
+		if($b == 0){continue;}
+		if(ggd($a,$b)==1)
+		{
+			break;
+		}
+	}
+	return $b;
+	/*
 	if(abs($a)==1)
 	{ return random_int($van,$tot);	} //Onmogelijke shit
 	$teller = 0;
@@ -67,6 +101,7 @@ function nietnulcopriem($a, $van = 2, $tot = 20)
 		if($teller > 20){throw new Exception('onmogelijke aanvraag nietnulcopriem');}
 	}
 	return $b;
+	*/
 }
 function onvolkomen()
 {

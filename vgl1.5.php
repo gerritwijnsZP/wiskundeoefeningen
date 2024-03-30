@@ -22,15 +22,15 @@ class Fabriek extends OefeningFactory
 			a (bx +/- c/d) = ex + f/g
 		*/
 		$x =	'x';
-		$a =	nietnul(-7,7);
-		$b =	nietnul(-5,5);
+		$a =	nietnul(2,7)*nietnul(-1,1);
+		$b =	nietnul(2,5)*nietnul(-1,1);
 		$t = 	nietnul(-1,1);
 		$c =	nietnul(2,5);
-		$d =	nietnulcopriem($c, 2, 16);
+		$d =	nietnulcopriem($c*$a, 2, 13);
 		$cd = new R($c,$d); $cd->haakjes(False); $cd->vereenvoudig();
-		$e =	nietnulcopriem($a*$b,-10,10);
+		$e =	nietnulcopriem($a*$b,2,10)*nietnul(-1,1);
 		$f =	nietnul(2,10);
-		$g =	nietnulcopriem($f,2,16);
+		$g =	nietnulcopriem($f,2,13);
 		$fg = new R($f,$g); $fg->haakjes(False); $fg->vereenvoudig();
 		$linkerlid 	= p($a,1) . "(" . p($b,1) . $x . p($t,0) . $cd .")";
 		$rechterlid	= p($e,1) . $x . '+' . $fg;
@@ -51,8 +51,11 @@ class Fabriek extends OefeningFactory
 		//kgv
 		$kgv 		= kgv($cd->noemer, $fg->noemer);
 		$oplossing  .= " & & & \\text{kgv van noemers ".$cd->noemer." en ".$fg->noemer." is ".$kgv ."} \\\\";
-		$linkerlid 	= color('blue',$kgv) . ".(" . p($a*$b,1) . $x . p($t,0) . $cd . ")";
-		$rechterlid	= "(". p($e,1) . $x . '+' . $fg .").".color('blue',$kgv);
+		//Wensen Juanita en Lode
+		$linkerlid 	= color('blue',$kgv) . ".(\\frac{" . $a*$b*$kgv. "}{".color('blue',$kgv)."}" . $x . p($t,0) . "
+						\\frac{".$kgv/$cd->noemer*$cd->teller."}{".color('blue',$kgv)."}" . ")";
+		$rechterlid	= "(\\frac{". $e*$kgv . "}{".color('blue',$kgv)."}" . $x . '+' . "
+						\\frac{".$kgv/$fg->noemer*$fg->teller."}{".color('blue',$kgv)."}).".color('blue',$kgv);
 		$oplossing 	.= "\\Leftrightarrow & ". $linkerlid ."& = & " .$rechterlid. " \\\\";
 		//Distributiviteit
 		$cd			= $cd->mul($kgv); $cd->vereenvoudig(); $c = $t * $cd->teller;
