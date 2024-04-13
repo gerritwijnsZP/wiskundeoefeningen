@@ -52,18 +52,22 @@ if (!isset($_GET['pagina']) or (isset($_GET['pagina']) and !in_array($_GET['pagi
 
 		<pre>
 <?php
+	$pages = generateChapterArray();
+	// echo '<pre>';
+	// print_r($pages);
+	// echo '</pre>';
 	foreach ($pages as $page) {
-		echo 'Chapter Title: ' . $page['title'];
+		echo 'Chapter Title: ' . $page['title'] . ' -> ' . $page['description'];
 		echo '<br />';
 
 		$sections = $page['sections'];
 		foreach ($sections as $section) {
-			echo '- Section Title: ' . $section['title'];
+			echo '- Section Title: ' . $section['title'] . ' -> ' . $section['description'];
 			echo '<br />';
 
 			$exercises = $section['exercises'];
 			foreach ($exercises as $exercise) {
-				echo '-- Exercise File: ' . $exercise;
+				echo '-- Exercise File: ' . $exercise['file'] . ' -> ' . $exercise['description'];
 				echo '<br />';
 			}
 
@@ -73,8 +77,47 @@ if (!isset($_GET['pagina']) or (isset($_GET['pagina']) and !in_array($_GET['pagi
 		echo '<br />';
 		echo '<br />';
 	}
+
+	echo '</pre>';
+	foreach ($pages as $page) {
+		$count = 0;
+		echo '<div>';
+		echo '
+		<div class="row">
+			<h1 id="BSS">
+				' . $page['title'] . '
+				<span style="float: right; text-color: black">
+					<a href="#top">\(\uparrow\)</a>
+				</span>
+			</h1>
+		';
+
+		$sections = $page['sections'];
+		$count = 1;
+		foreach($sections as $section) {
+			$count++;
+			$newRow = $count % 3 == 1;
+			if ($newRow) {
+				echo '<div class="row">';
+			}
+			
+			echo '- Section Title: ' . $section['title'] . ' -> ' . $section['description'];
+			echo '<br />';
+
+			if ($newRow) {
+				echo '</div>';
+			}
+		}
+		if ($count % 3 != 0) {
+			echo '</div>';
+		}
+		echo '
+			</div>
+		</div>
+		';
+	}
+
 ?>
-</pre>
 
 	</div>
 	<div class="container">

@@ -8,23 +8,23 @@
 			"exercises": {
 				"complexe.getallen.1": {
 					"title": "complexe.getallen.1",
-					"description": "This is the metadata for the section complexe.getallen.1"
+					"description": "This is the metadata for the exercise complexe.getallen.1"
 				},
 				"complexe.getallen.2": {
 					"title": "complexe.getallen.2",
-					"description": "This is the metadata for the section complexe.getallen.2"
+					"description": "This is the metadata for the exercise complexe.getallen.2"
 				},
 				"complexe.getallen.3": {
 					"title": "complexe.getallen.3",
-					"description": "This is the metadata for the section complexe.getallen.3"
+					"description": "This is the metadata for the exercise complexe.getallen.3"
 				},
 				"complexe.getallen.4": {
 					"title": "complexe.getallen.4",
-					"description": "This is the metadata for the section complexe.getallen.4"
+					"description": "This is the metadata for the exercise complexe.getallen.4"
 				},
 				"complexe.getallen.5": {
 					"title": "complexe.getallen.5",
-					"description": "This is the metadata for the section complexe.getallen.5"
+					"description": "This is the metadata for the exercise complexe.getallen.5"
 				}
 			}
 		},
@@ -34,15 +34,15 @@
 			"exercises": {
 				"eerstegraadsfunctie.bepalen.rico.en.punt.gegeven": {
 					"title": "eerstegraadsfunctie.bepalen.rico.en.punt.gegeven",
-					"description": "This is the metadata for the section eerstegraadsfunctie.bepalen.rico.en.punt.gegeven"
+					"description": "This is the metadata for the exercise eerstegraadsfunctie.bepalen.rico.en.punt.gegeven"
 				},
 				"eerstegraadsfunctie.bepalen.2punten.gegeven": {
 					"title": "eerstegraadsfunctie.bepalen.2punten.gegeven",
-					"description": "This is the metadata for the section eerstegraadsfunctie.bepalen.2punten.gegeven"
+					"description": "This is the metadata for the exercise eerstegraadsfunctie.bepalen.2punten.gegeven"
 				},
 				"eerstegraadsfunctie.bepalen": {
 					"title": "eerstegraadsfunctie.bepalen",
-					"description": "This is the metadata for the section eerstegraadsfunctie.bepalen"
+					"description": "This is the metadata for the exercise eerstegraadsfunctie.bepalen"
 				}
 			}
 		},
@@ -52,7 +52,7 @@
 			"exercises": {
 				"functieonderzoek.1": {
 					"title": "functieonderzoek.1",
-					"description": "This is the metadata for the section functieonderzoek.1"
+					"description": "This is the metadata for the exercise functieonderzoek.1"
 				}
 			}
 		},
@@ -62,7 +62,7 @@
 			"exercises": {
 				"goniometrie.1": {
 					"title": "goniometrie.1",
-					"description": "This is the metadata for the section goniometrie.1"
+					"description": "This is the metadata for the exercise goniometrie.1"
 				}
 			}
 		},
@@ -72,23 +72,23 @@
 			"exercises": {
 				"hoeken.graad.naar.radiaal.1": {
 					"title": "hoeken.graad.naar.radiaal.1",
-					"description": "This is the metadata for the section hoeken.graad.naar.radiaal.1"
+					"description": "This is the metadata for the exercise hoeken.graad.naar.radiaal.1"
 				},
 				"hoeken.graad.naar.radiaal.2": {
 					"title": "hoeken.graad.naar.radiaal.2",
-					"description": "This is the metadata for the section hoeken.graad.naar.radiaal.2"
+					"description": "This is the metadata for the exercise hoeken.graad.naar.radiaal.2"
 				},
 				"hoeken.radiaal.naar.graad.1": {
 					"title": "hoeken.radiaal.naar.graad.1",
-					"description": "This is the metadata for the section hoeken.radiaal.naar.graad.1"
+					"description": "This is the metadata for the exercise hoeken.radiaal.naar.graad.1"
 				},
 				"hoeken.radiaal.naar.graad.2": {
 					"title": "hoeken.radiaal.naar.graad.2",
-					"description": "This is the metadata for the section hoeken.radiaal.naar.graad.2"
+					"description": "This is the metadata for the exercise hoeken.radiaal.naar.graad.2"
 				},
 				"hoeken.lengte.cirkelboog": {
 					"title": "hoeken.lengte.cirkelboog",
-					"description": "This is the metadata for the section hoeken.lengte.cirkelboog"
+					"description": "This is the metadata for the exercise hoeken.lengte.cirkelboog"
 				}
 			}
 		},
@@ -98,23 +98,23 @@
 			"exercises": {
 				"logaritmen.1": {
 					"title": "logaritmen.1",
-					"description": "This is the metadata for the section logaritmen.1"
+					"description": "This is the metadata for the exercise logaritmen.1"
 				},
 				"logaritmen.2": {
 					"title": "logaritmen.2",
-					"description": "This is the metadata for the section logaritmen.2"
+					"description": "This is the metadata for the exercise logaritmen.2"
 				},
 				"logaritmen.3": {
 					"title": "logaritmen.3",
-					"description": "This is the metadata for the section logaritmen.3"
+					"description": "This is the metadata for the exercise logaritmen.3"
 				},
 				"logaritmen.4": {
 					"title": "logaritmen.4",
-					"description": "This is the metadata for the section logaritmen.4"
+					"description": "This is the metadata for the exercise logaritmen.4"
 				},
 				"logaritmen.5": {
 					"title": "logaritmen.5",
-					"description": "This is the metadata for the section logaritmen.5"
+					"description": "This is the metadata for the exercise logaritmen.5"
 				}
 			}
 		},
@@ -124,15 +124,15 @@
 			"exercises": {
 				"logica.niet": {
 					"title": "logica.niet",
-					"description": "This is the metadata for the section logica.niet"
+					"description": "This is the metadata for the exercise logica.niet"
 				},
 				"logica.samenstelling.1": {
 					"title": "logica.samenstelling.1",
-					"description": "This is the metadata for the section logica.samenstelling.1"
+					"description": "This is the metadata for the exercise logica.samenstelling.1"
 				},
 				"logica.samenstelling.2": {
 					"title": "logica.samenstelling.2",
-					"description": "This is the metadata for the section logica.samenstelling.2"
+					"description": "This is the metadata for the exercise logica.samenstelling.2"
 				}
 			}
 		},
@@ -142,19 +142,19 @@
 			"exercises": {
 				"machten.rationaal.1": {
 					"title": "machten.rationaal.1",
-					"description": "This is the metadata for the section machten.rationaal.1"
+					"description": "This is the metadata for the exercise machten.rationaal.1"
 				},
 				"machten.rationaal.2": {
 					"title": "machten.rationaal.2",
-					"description": "This is the metadata for the section machten.rationaal.2"
+					"description": "This is the metadata for the exercise machten.rationaal.2"
 				},
 				"machten.rationaal.3": {
 					"title": "machten.rationaal.3",
-					"description": "This is the metadata for the section machten.rationaal.3"
+					"description": "This is the metadata for the exercise machten.rationaal.3"
 				},
 				"machten.rationaal.getallen": {
 					"title": "machten.rationaal.getallen",
-					"description": "This is the metadata for the section machten.rationaal.getallen"
+					"description": "This is the metadata for the exercise machten.rationaal.getallen"
 				}
 			}
 		},
@@ -164,15 +164,15 @@
 			"exercises": {
 				"stelsels.substitutie": {
 					"title": "stelsels.substitutie",
-					"description": "This is the metadata for the section stelsels.substitutie"
+					"description": "This is the metadata for the exercise stelsels.substitutie"
 				},
 				"stelsels.combinatie": {
 					"title": "stelsels.combinatie",
-					"description": "This is the metadata for the section stelsels.combinatie"
+					"description": "This is the metadata for the exercise stelsels.combinatie"
 				},
 				"stesels.breuken": {
 					"title": "stesels.breuken",
-					"description": "This is the metadata for the section stesels.breuken"
+					"description": "This is the metadata for the exercise stesels.breuken"
 				}
 			}
 		},
@@ -182,19 +182,19 @@
 			"exercises": {
 				"vkv.volledig.1": {
 					"title": "vkv.volledig.1",
-					"description": "This is the metadata for the section vkv.volledig.1"
+					"description": "This is the metadata for the exercise vkv.volledig.1"
 				},
 				"vkv.volledig.2": {
 					"title": "vkv.volledig.2",
-					"description": "This is the metadata for the section vkv.volledig.2"
+					"description": "This is the metadata for the exercise vkv.volledig.2"
 				},
 				"vkv.onvolledig.1": {
 					"title": "vkv.onvolledig.1",
-					"description": "This is the metadata for the section vkv.onvolledig.1"
+					"description": "This is the metadata for the exercise vkv.onvolledig.1"
 				},
 				"vkv.onvolledig.2": {
 					"title": "vkv.onvolledig.2",
-					"description": "This is the metadata for the section vkv.onvolledig.2"
+					"description": "This is the metadata for the exercise vkv.onvolledig.2"
 				}
 			}
 		}

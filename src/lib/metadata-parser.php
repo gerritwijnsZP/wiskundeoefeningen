@@ -44,7 +44,14 @@ function generateChapterArray()
       $chaptersArray['sections'][] = [
         'title' => $chapterMetadata['sections'][$sectionName]['title'],
         'description' => $chapterMetadata['sections'][$sectionName]['description'],
-        'exercises' => array_map(fn ($exerciseFile) => $exerciseFile, $sectionExercises)
+        'exercises' => array_map(function ($exerciseFile) use ($chapterMetadata, $sectionName) {
+          $exerciseMetadata = $chapterMetadata['sections'][$sectionName]['exercises'][$exerciseFile];
+          return [
+            'title' => $exerciseMetadata['title'],
+            'description' => $exerciseMetadata['description'],
+            'file' => $exerciseFile
+          ];
+        }, $sectionExercises)
       ];
     }
 
