@@ -94,13 +94,20 @@ if (!isset($_GET['page']) or (isset($_GET['page']) and !in_array($_GET['page'], 
 		$sections = $page['sections'];
 		$count = 0;
 		foreach($sections as $section) {
+			$meetkunde = false;
+			if ($section['title'] == 'Goniometrie' || $section['title'] == 'Functieonderzoek') {
+				$meetkunde = true;
+			}
+
 			if ($count % 3 == 0) {
 				echo '<div class="cards-wrapper">';
 			}
 
+			$meetkundeHeadingStyle = $meetkunde ? ' style="background-color: #0000A0"' : '';
+			$meetkundeBodyStyle = $meetkunde ? ' style="background-color: lightblue"' : '';
 			echo '
-			<fieldset class="card">
-				<legend>' . $section['title'] . '</legend>
+			<fieldset class="card" ' . $meetkundeBodyStyle . '>
+				<legend ' . $meetkundeHeadingStyle . '>' . $section['title'] . '</legend>
 			';
 
 			echo '<div class="exercises-wrapper">';
@@ -132,9 +139,9 @@ if (!isset($_GET['page']) or (isset($_GET['page']) and !in_array($_GET['page'], 
 ?>
 
 	</div>
-	<div class="container">
+	<!-- <div class="container">
 		<?= $menu; ?>
-	</div>
+	</div> -->
 <?php
 
 } else {

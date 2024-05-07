@@ -119,81 +119,81 @@
 			}
 		},
 		"logica": {
-			"title": "logica",
+			"title": "Logica",
 			"description": "This is the metadata for the section logica",
 			"exercises": {
 				"logica.niet": {
-					"title": "logica.niet",
+					"title": "Negatie",
 					"description": "This is the metadata for the exercise logica.niet"
 				},
 				"logica.samenstelling.1": {
-					"title": "logica.samenstelling.1",
+					"title": "Samenstellingen (reeks 1)",
 					"description": "This is the metadata for the exercise logica.samenstelling.1"
 				},
 				"logica.samenstelling.2": {
-					"title": "logica.samenstelling.2",
+					"title": "Samenstellingen (reeks 2)",
 					"description": "This is the metadata for the exercise logica.samenstelling.2"
 				}
 			}
 		},
 		"rationale-machten": {
-			"title": "rationale-machten",
+			"title": "Rationale machten",
 			"description": "This is the metadata for the section rationale-machten",
 			"exercises": {
 				"machten.rationaal.1": {
-					"title": "machten.rationaal.1",
+					"title": "Product zelfde grondtal",
 					"description": "This is the metadata for the exercise machten.rationaal.1"
 				},
 				"machten.rationaal.2": {
-					"title": "machten.rationaal.2",
+					"title": "Quotiënt zelfde grondtal",
 					"description": "This is the metadata for the exercise machten.rationaal.2"
 				},
 				"machten.rationaal.3": {
-					"title": "machten.rationaal.3",
+					"title": "Macht van een macht",
 					"description": "This is the metadata for the exercise machten.rationaal.3"
 				},
 				"machten.rationaal.getallen": {
-					"title": "machten.rationaal.getallen",
+					"title": "Getallen als grondtal",
 					"description": "This is the metadata for the exercise machten.rationaal.getallen"
 				}
 			}
 		},
 		"stelsels": {
-			"title": "stelsels",
+			"title": "Stelsels",
 			"description": "This is the metadata for the section stelsels",
 			"exercises": {
 				"stelsels.substitutie": {
-					"title": "stelsels.substitutie",
+					"title": "Stelsels substitutie",
 					"description": "This is the metadata for the exercise stelsels.substitutie"
 				},
 				"stelsels.combinatie": {
-					"title": "stelsels.combinatie",
+					"title": "Stelsels combinatie",
 					"description": "This is the metadata for the exercise stelsels.combinatie"
 				},
 				"stesels.breuken": {
-					"title": "stesels.breuken",
+					"title": "Stelsels met breuken",
 					"description": "This is the metadata for the exercise stesels.breuken"
 				}
 			}
 		},
 		"vergelijkingen-tweede-graad": {
-			"title": "vergelijkingen-tweede-graad",
+			"title": "Vgln. tweede graad",
 			"description": "This is the metadata for the section vergelijkingen-tweede-graad",
 			"exercises": {
 				"vkv.volledig.1": {
-					"title": "vkv.volledig.1",
+					"title": "Vierkantsvergelijkingen (VKV)",
 					"description": "This is the metadata for the exercise vkv.volledig.1"
 				},
 				"vkv.volledig.2": {
-					"title": "vkv.volledig.2",
+					"title": "VKV met breuken of rekenwerk",
 					"description": "This is the metadata for the exercise vkv.volledig.2"
 				},
 				"vkv.onvolledig.1": {
-					"title": "vkv.onvolledig.1",
+					"title": "Onvolledige VKV (b=0)",
 					"description": "This is the metadata for the exercise vkv.onvolledig.1"
 				},
 				"vkv.onvolledig.2": {
-					"title": "vkv.onvolledig.2",
+					"title": "Onvolledige VKV (c=0)",
 					"description": "This is the metadata for the exercise vkv.onvolledig.2"
 				}
 			}
