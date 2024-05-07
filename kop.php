@@ -22,6 +22,7 @@ setlocale(LC_TIME, 'NL_nl');
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="/public/css/normalize.css">
 	<link rel="stylesheet" href="/public/css/skeleton.css">
+	<link rel="stylesheet" href="/public/css/style.css">
 	<link rel="icon" href="/public/assets/favicon.png" type="image/x-icon">
 	<style>
 	input[type="date"]::-webkit-input-placeholder{ 
