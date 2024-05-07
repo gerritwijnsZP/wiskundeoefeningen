@@ -376,7 +376,7 @@ foreach ($alles as $pagina => $data) {
 		$menurij = '';
 		$teller = 0;
 		$menu .= "<div class='row'>
-					<h1 id='$pagina'>" . ltrim($data["Titel"], "@") . "<span style='float:right;text-color:black;'><a href='#top'>\(\\uparrow\)</a></span></h1>
+					<h1 id='$pagina'>" . ltrim($data["Titel"], "@") . "<span style='float:right;text-color:black;'><a href='#'>\(\\uparrow\)</a></span></h1>
 					
 				</div>";
 		array_push($inhoudsopgave, "<a href='#$pagina'>" . ltrim($data["Titel"], "@") . "</a>");

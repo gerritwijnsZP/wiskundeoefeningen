@@ -9,7 +9,7 @@ if (!isset($_SESSION['aantal'])) {
 include('kop.php');
 include('index.overzicht.php'); //Bevat wat CSS, $paginas, $menu en $aantal_oefeningenreeksen
 //OVERZICHT
-if (!isset($_GET['pagina']) or (isset($_GET['pagina']) and !in_array($_GET['pagina'], array_keys($paginas)))) //EXTRA VEILIGHEID
+if (!isset($_GET['page']) or (isset($_GET['page']) and !in_array($_GET['page'], array_keys($paginas)))) //EXTRA VEILIGHEID
 {
 ?>
 	<div class="container" id='rijnr-1'>
@@ -50,73 +50,85 @@ if (!isset($_GET['pagina']) or (isset($_GET['pagina']) and !in_array($_GET['pagi
 			</div>
 		</div>
 
-		<pre>
+		<!-- <pre> -->
 <?php
+	echo '<div class="chapters-container">';
 	$pages = generateChapterArray();
 	// echo '<pre>';
 	// print_r($pages);
 	// echo '</pre>';
+	// foreach ($pages as $page) {
+	// 	echo 'Chapter Title: ' . $page['title'] . ' -> ' . $page['description'];
+	// 	echo '<br />';
+
+	// 	$sections = $page['sections'];
+	// 	foreach ($sections as $section) {
+	// 		echo '- Section Title: ' . $section['title'] . ' -> ' . $section['description'];
+	// 		echo '<br />';
+
+	// 		$exercises = $section['exercises'];
+	// 		foreach ($exercises as $exercise) {
+	// 			echo '-- Exercise File: ' . $exercise['file'] . ' -> ' . $exercise['description'];
+	// 			echo '<br />';
+	// 		}
+
+	// 		echo '<br />';
+	// 	}
+
+	// 	echo '<br />';
+	// 	echo '<br />';
+	// }
+	// echo '</pre>';
+	
 	foreach ($pages as $page) {
-		echo 'Chapter Title: ' . $page['title'] . ' -> ' . $page['description'];
-		echo '<br />';
-
-		$sections = $page['sections'];
-		foreach ($sections as $section) {
-			echo '- Section Title: ' . $section['title'] . ' -> ' . $section['description'];
-			echo '<br />';
-
-			$exercises = $section['exercises'];
-			foreach ($exercises as $exercise) {
-				echo '-- Exercise File: ' . $exercise['file'] . ' -> ' . $exercise['description'];
-				echo '<br />';
-			}
-
-			echo '<br />';
-		}
-
-		echo '<br />';
-		echo '<br />';
-	}
-
-	echo '</pre>';
-	foreach ($pages as $page) {
-		$count = 0;
-		echo '<div>';
 		echo '
-		<div class="row">
+		<div class="chapter">
 			<h1 id="BSS">
 				' . $page['title'] . '
 				<span style="float: right; text-color: black">
-					<a href="#top">\(\uparrow\)</a>
+					<a href="#">\(\uparrow\)</a>
 				</span>
 			</h1>
 		';
 
 		$sections = $page['sections'];
-		$count = 1;
+		$count = 0;
 		foreach($sections as $section) {
-			$count++;
-			$newRow = $count % 3 == 1;
-			if ($newRow) {
-				echo '<div class="row">';
+			if ($count % 3 == 0) {
+				echo '<div class="cards-wrapper">';
 			}
-			
-			echo '- Section Title: ' . $section['title'] . ' -> ' . $section['description'];
-			echo '<br />';
 
-			if ($newRow) {
+			echo '
+			<fieldset class="card">
+				<legend>' . $section['title'] . '</legend>
+			';
+
+			echo '<div class="exercises-wrapper">';
+			$exercises = $section['exercises'];
+			foreach($exercises as $exercise) {
+				echo '
+				<a class="link" href="?page=' . $exercise['file'] . '">' . $exercise['title'] . '</a>
+				';
+			}
+			echo '
+				</div>
+			</fieldset>
+			';
+
+			$count++;
+			if ($count % 3 == 0) {
 				echo '</div>';
 			}
 		}
+		
 		if ($count % 3 != 0) {
 			echo '</div>';
 		}
-		echo '
-			</div>
-		</div>
-		';
 	}
-
+	
+	echo '</div>';
+	echo '</div>';
+	echo '</div>';
 ?>
 
 	</div>
@@ -127,7 +139,7 @@ if (!isset($_GET['pagina']) or (isset($_GET['pagina']) and !in_array($_GET['pagi
 
 } else {
 	//ONTVANGEN
-	$label = $_GET['pagina'];
+	$label = $_GET['page'];
 	if (!in_array($label, array_keys($paginas))) {
 		die('Onbekend verzoek');
 	}
@@ -141,7 +153,7 @@ if (!isset($_GET['pagina']) or (isset($_GET['pagina']) and !in_array($_GET['pagi
 		if (isset($_GET['embed'])) {
 			echo "<a href=\"mixer.php?blok=$label&embed\" class='button'>Eentje per keer</a>&nbsp; ";
 		} else {
-			$ref = "#top";
+			$ref = "#";
 			$rijnr = -1;
 			if (isset($_GET['rijnr'])) {
 				$rijnr = $_GET['rijnr'];
