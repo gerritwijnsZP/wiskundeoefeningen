@@ -3,145 +3,145 @@
 	"description": "This is the metadata for the chapter algebra",
 	"sections": {
 		"inleiding-veeltermen": {
-			"title": "inleiding-veeltermen",
+			"title": "Inleiding veeltermen",
 			"description": "This is the metadata for the section inleiding-veeltermen",
 			"exercises": {
 				"lettervorm.herleiden": {
-					"title": "lettervorm.herleiden",
+					"title": "Lettervormen herleiden",
 					"description": "This is the metadata for the exercise lettervorm.herleiden"
 				},
 				"lettervorm.getalwaarde": {
-					"title": "lettervorm.getalwaarde",
+					"title": "Lettervormen getalwaarde",
 					"description": "This is the metadata for the exercise lettervorm.getalwaarde"
 				},
 				"lettervorm.distributiviteit": {
-					"title": "lettervorm.distributiviteit",
+					"title": "Lettervormen distributiviteit",
 					"description": "This is the metadata for the exercise lettervorm.distributiviteit"
 				},
 				"distributiviteit": {
-					"title": "distributiviteit",
+					"title": "Distributiviteit \\((a+r)(b+s)\\)",
 					"description": "This is the metadata for the exercise distributiviteit"
 				},
 				"veeltermen.bewerkingen.geheel": {
-					"title": "veeltermen.bewerkingen.geheel",
+					"title": "Bewerkingen met veeltermen",
 					"description": "This is the metadata for the exercise veeltermen.bewerkingen.geheel"
 				}
 			}
 		},
 		"merkwaardige-producten": {
-			"title": "merkwaardige-producten",
+			"title": "Merkwaardige producten",
 			"description": "This is the metadata for the section merkwaardige-producten",
 			"exercises": {
 				"merkwaardige.producten": {
-					"title": "merkwaardige.producten",
+					"title": "Merkwaardige producten (MP)",
 					"description": "This is the metadata for the exercise merkwaardige.producten"
 				},
 				"mp.ontbinden.factoren": {
-					"title": "mp.ontbinden.factoren",
+					"title": "Ontbinden in factoren (reeks 1)",
 					"description": "This is the metadata for the exercise mp.ontbinden.factoren"
 				},
 				"ontbinden.factoren": {
-					"title": "ontbinden.factoren",
+					"title": "Ontbinden in factoren (reeks 2)",
 					"description": "This is the metadata for the exercise ontbinden.factoren"
 				},
 				"ontbinden.factoren.2": {
-					"title": "ontbinden.factoren.2",
+					"title": "Tweeterm als gem. factor (reeks 3)",
 					"description": "This is the metadata for the exercise ontbinden.factoren.2"
 				}
 			}
 		},
 		"problem-solving": {
-			"title": "problem-solving",
+			"title": "Problem solving",
 			"description": "This is the metadata for the section problem-solving",
 			"exercises": {
 				"snelheid": {
-					"title": "snelheid",
+					"title": "Snelheid",
 					"description": "This is the metadata for the exercise snelheid"
 				},
 				"krachten": {
-					"title": "krachten",
+					"title": "Krachten",
 					"description": "This is the metadata for the exercise krachten"
 				}
 			}
 		},
 		"vergelijkingen-eerste-graad": {
-			"title": "vergelijkingen-eerste-graad",
+			"title": "Vgln. eerste graad",
 			"description": "This is the metadata for the section vergelijkingen-eerste-graad",
 			"exercises": {
 				"vgl.1.1": {
-					"title": "vgl.1.1",
+					"title": "Vgln. eerste graad (reeks  1)",
 					"description": "This is the metadata for the exercise vgl.1.1"
 				},
 				"vgl.1.2": {
-					"title": "vgl.1.2",
+					"title": "Vgln. eerste graad (reeks  2)",
 					"description": "This is the metadata for the exercise vgl.1.2"
 				},
 				"vgl.1.3": {
-					"title": "vgl.1.3",
+					"title": "Vgln. eerste graad (reeks  3)",
 					"description": "This is the metadata for the exercise vgl.1.3"
 				},
 				"vgl.1.4": {
-					"title": "vgl.1.4",
+					"title": "Vgln. eerste graad (reeks  4)",
 					"description": "This is the metadata for the exercise vgl.1.4"
 				},
 				"vgl.1.5": {
-					"title": "vgl.1.5",
+					"title": "Vgln. eerste graad (reeks  5)",
 					"description": "This is the metadata for the exercise vgl.1.5"
 				}
 			}
 		},
 		"vertalen-omvormen": {
-			"title": "vertalen-omvormen",
+			"title": "Vertalen / Omvormen",
 			"description": "This is the metadata for the section vertalen-omvormen",
 			"exercises": {
 				"wiskundetaal": {
-					"title": "wiskundetaal",
+					"title": "Wiskundetaal",
 					"description": "This is the metadata for the exercise wiskundetaal"
 				},
 				"formules.omvormen": {
-					"title": "formules.omvormen",
+					"title": "Formules omvormen",
 					"description": "This is the metadata for the exercise formules.omvormen"
 				},
 				"vgl1.6-wiskundetaal": {
-					"title": "vgl1.6-wiskundetaal",
+					"title": "Vgln. en wiskundetaal",
 					"description": "This is the metadata for the exercise vgl1.6-wiskundetaal"
 				},
 				"vrgstk1.1": {
-					"title": "vrgstk1.1",
+					"title": "Eenvoudige vraagstukken",
 					"description": "This is the metadata for the exercise vrgstk1.1"
 				},
 				"python.def": {
-					"title": "python.def",
+					"title": "Python functies",
 					"description": "This is the metadata for the exercise python.def"
 				}
 			}
 		},
 		"vraagstukken": {
-			"title": "vraagstukken",
+			"title": "Vraagstukken",
 			"description": "This is the metadata for the section vraagstukken",
 			"exercises": {
 				"vraagstuk.eenvoudig": {
-					"title": "vraagstuk.eenvoudig",
+					"title": "Instapvraagstukken",
 					"description": "This is the metadata for the exercise vraagstuk.eenvoudig"
 				},
 				"vraagstuk.vast.herhaald": {
-					"title": "vraagstuk.vast.herhaald",
+					"title": "Vaste en herhaalde kost",
 					"description": "This is the metadata for the exercise vraagstuk.vast.herhaald"
 				},
 				"vraagstuk.vorm.binair": {
-					"title": "vraagstuk.vorm.binair",
+					"title": "Vrgst met 2 gevraagden",
 					"description": "This is the metadata for the exercise vraagstuk.vorm.binair"
 				},
 				"vraagstuk.breuken": {
-					"title": "vraagstuk.breuken",
+					"title": "Vrgst met breuken",
 					"description": "This is the metadata for the exercise vraagstuk.breuken"
 				},
 				"vraagstuk.vorm.tertiair": {
-					"title": "vraagstuk.vorm.tertiair",
+					"title": "Vrgst met 3 gevraagden",
 					"description": "This is the metadata for the exercise vraagstuk.vorm.tertiair"
 				},
 				"vraagstuk.doordenkers": {
-					"title": "vraagstuk.doordenkers",
+					"title": "Doordenkers",
 					"description": "This is the metadata for the exercise vraagstuk.doordenkers"
 				}
 			}

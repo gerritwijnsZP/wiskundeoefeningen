@@ -3,23 +3,23 @@
 	"description": "This is the metadata for the chapter hoger-secundair-onderwijs",
 	"sections": {
 		"complexe-getallen": {
-			"title": "complexe-getallen",
+			"title": "Complexe getallen",
 			"description": "This is the metadata for the section complexe-getallen",
 			"exercises": {
 				"complexe.getallen.1": {
-					"title": "complexe.getallen.1",
+					"title": "Optellen en aftrekken (a+bi)",
 					"description": "This is the metadata for the exercise complexe.getallen.1"
 				},
 				"complexe.getallen.2": {
-					"title": "complexe.getallen.2",
+					"title": "Vermenigvuldigen en delen (a+bi)",
 					"description": "This is the metadata for the exercise complexe.getallen.2"
 				},
 				"complexe.getallen.3": {
-					"title": "complexe.getallen.3",
+					"title": "Basisbewerkingen gemengd (a+bi)",
 					"description": "This is the metadata for the exercise complexe.getallen.3"
 				},
 				"complexe.getallen.4": {
-					"title": "complexe.getallen.4",
+					"title": "Bepaal modulus en argument",
 					"description": "This is the metadata for the exercise complexe.getallen.4"
 				},
 				"complexe.getallen.5": {
@@ -29,87 +29,87 @@
 			}
 		},
 		"eerstegraadsfuncties": {
-			"title": "eerstegraadsfuncties",
+			"title": "Eerstegraadsfuncties",
 			"description": "This is the metadata for the section eerstegraadsfuncties",
 			"exercises": {
 				"eerstegraadsfunctie.bepalen.rico.en.punt.gegeven": {
-					"title": "eerstegraadsfunctie.bepalen.rico.en.punt.gegeven",
+					"title": "Bepalen voorschrift (rico + punt gegeven)",
 					"description": "This is the metadata for the exercise eerstegraadsfunctie.bepalen.rico.en.punt.gegeven"
 				},
 				"eerstegraadsfunctie.bepalen.2punten.gegeven": {
-					"title": "eerstegraadsfunctie.bepalen.2punten.gegeven",
+					"title": "Bepalen voorschrift (2 punten gegeven)",
 					"description": "This is the metadata for the exercise eerstegraadsfunctie.bepalen.2punten.gegeven"
 				},
 				"eerstegraadsfunctie.bepalen": {
-					"title": "eerstegraadsfunctie.bepalen",
+					"title": "Bepalen voorschrift (gemengd)",
 					"description": "This is the metadata for the exercise eerstegraadsfunctie.bepalen"
 				}
 			}
 		},
 		"functieonderzoek": {
-			"title": "functieonderzoek",
+			"title": "Functieonderzoek",
 			"description": "This is the metadata for the section functieonderzoek",
 			"exercises": {
 				"functieonderzoek.1": {
-					"title": "functieonderzoek.1",
+					"title": "1e graad met grafiek (reeks 1)",
 					"description": "This is the metadata for the exercise functieonderzoek.1"
 				}
 			}
 		},
 		"goniometrie": {
-			"title": "goniometrie",
+			"title": "Goniometrie",
 			"description": "This is the metadata for the section goniometrie",
 			"exercises": {
 				"goniometrie.1": {
-					"title": "goniometrie.1",
+					"title": "Pythagoras, sin, cos, tan",
 					"description": "This is the metadata for the exercise goniometrie.1"
 				}
 			}
 		},
 		"hoeken-omrekenen": {
-			"title": "hoeken-omrekenen",
+			"title": "Hoeken omrekenen",
 			"description": "This is the metadata for the section hoeken-omrekenen",
 			"exercises": {
 				"hoeken.graad.naar.radiaal.1": {
-					"title": "hoeken.graad.naar.radiaal.1",
+					"title": "Van graden naar radialen",
 					"description": "This is the metadata for the exercise hoeken.graad.naar.radiaal.1"
 				},
 				"hoeken.graad.naar.radiaal.2": {
-					"title": "hoeken.graad.naar.radiaal.2",
+					"title": "Van graden naar radialen (ZRM)",
 					"description": "This is the metadata for the exercise hoeken.graad.naar.radiaal.2"
 				},
 				"hoeken.radiaal.naar.graad.1": {
-					"title": "hoeken.radiaal.naar.graad.1",
+					"title": "Van radialen naar graden",
 					"description": "This is the metadata for the exercise hoeken.radiaal.naar.graad.1"
 				},
 				"hoeken.radiaal.naar.graad.2": {
-					"title": "hoeken.radiaal.naar.graad.2",
+					"title": "Van radialen naar graden (ZRM)",
 					"description": "This is the metadata for the exercise hoeken.radiaal.naar.graad.2"
 				},
 				"hoeken.lengte.cirkelboog": {
-					"title": "hoeken.lengte.cirkelboog",
+					"title": "Lengte cirkelboog AB",
 					"description": "This is the metadata for the exercise hoeken.lengte.cirkelboog"
 				}
 			}
 		},
 		"logaritmen": {
-			"title": "logaritmen",
+			"title": "Logaritmen",
 			"description": "This is the metadata for the section logaritmen",
 			"exercises": {
 				"logaritmen.1": {
-					"title": "logaritmen.1",
+					"title": "Rekenen met log<sub>10</sub> (reeks 1)",
 					"description": "This is the metadata for the exercise logaritmen.1"
 				},
 				"logaritmen.2": {
-					"title": "logaritmen.2",
+					"title": "Rekenen met log<sub>10</sub> (reeks 2)",
 					"description": "This is the metadata for the exercise logaritmen.2"
 				},
 				"logaritmen.3": {
-					"title": "logaritmen.3",
+					"title": "log<sub>10</sub> met rekenmachien",
 					"description": "This is the metadata for the exercise logaritmen.3"
 				},
 				"logaritmen.4": {
-					"title": "logaritmen.4",
+					"title": "Rekenregels (reeks 1)",
 					"description": "This is the metadata for the exercise logaritmen.4"
 				},
 				"logaritmen.5": {
