@@ -230,9 +230,11 @@ $paginas = array(
                 "complexe.getallen.4"=>array( "Titel"=> "Bepaal modulus en argument" ,"Opgave"=> "Bepaal modulus en argument" ),
                 //"logaritmen.5"=>array( "Titel"=> "Rekenregels (reeks 2)" ,"Opgave"=> "Pas de rekenregels toe en bereken" ),
 
-
-
+                // Toegevoegd: interactieve complexe getallen-oefeningen
+                "complex_gon_bewerkingen"=>array("Titel"=>"Goniometrische bewerkingen (interactief)", "Opgave"=>"Interactieve oefeningen"),
+                "complex_machtswortels"=>array("Titel"=>"Machtswortels (interactief)", "Opgave"=>"Interactieve oefeningen"),
 );
+
 /* Hier definiëren we de mixers die niet alle oefeningen bevatten
  * We vullen deze array straks aan met de mixers per blok o.b.v. $paginas
  */ 
