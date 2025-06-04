@@ -198,11 +198,14 @@ $paginas = array(
 				 "stelsels.combinatie" =>array( "Titel"=> "Stelsels combinatie" ,"Opgave"=> "Combinatie" ),
 				 "stelsels.breuken" =>array( "Titel"=> "Stelsels met breuken" ,"Opgave"=> "Substitutie of combinatie" ),
 
-                 "eerstegraadsfuncties"=>array("Titel"=>"#Eerstegraadsfuncties", "Opgave"=>"Werk uit"),
+                 "eerstegraadsfuncties"=>array("Titel"=>"#eerstegraadsfuncties", "Opgave"=>"Werk uit"),
                  "eerstegraadsfunctie.bepalen.rico.en.punt.gegeven" =>array( "Titel"=> "Bepalen voorschrift (rico + punt gegeven)" ,"Opgave"=> "Bepaal het voorschrift in de vorm f(x)=ax+b" ),
                  "eerstegraadsfunctie.bepalen.2punten.gegeven" =>array( "Titel"=> "Bepalen voorschrift (2 punten gegeven)","Opgave"=> "Bepaal het voorschrift in de vorm f(x)=ax+b" ),
                  "eerstegraadsfunctie.bepalen" =>array( "Titel"=> "Bepalen voorschrift (gemengd)","Opgave"=> "Bepaal het voorschrift in de vorm f(x)=ax+b" ),
-				 
+//               "eerstegraadsfunctie.bespreken" =>array( "Titel"=> "Bespreek de eerstegraadsfunctie","Opgave"=> "Bepreek van de eerste graadsfunctie: rico, snijpunt met de x-as en y-as, nulpunt, tekenverloop" ),
+
+
+
 				 "hoeken.omrekenen"=>array("Titel"=>"#Hoeken omrekenen", "Opgave"=>"Probeer op zicht. Indien te complex, gebruik ZRM (radialen op 0,001 nauwkeurig, hoeken op een seconde nauwkeurig)"),
 				 "hoeken.graad.naar.radiaal.1"=>array("Titel"=>"Van graden naar radialen", "Opgave"=>"Geef een exacte uitkomst (laat &pi; staan). Zonder ZRM!"),
 				 "hoeken.graad.naar.radiaal.2"=>array("Titel"=>"Van graden naar radialen (ZRM)", "Opgave"=>"Zet om op 0,001 nauwkeurig. Met ZRM!"),
@@ -221,6 +224,7 @@ $paginas = array(
 				 "logaritmen.2" =>array( "Titel"=> "Rekenen met log<sub>10</sub> (reeks 2)" ,"Opgave"=> "Bepaal x" ),
 				 "logaritmen.3" =>array( "Titel"=> "log<sub>10</sub> met rekenmachien" ,"Opgave"=> "Bepaal x met ZRM" ),
 				 "logaritmen.4"=>array( "Titel"=> "Rekenregels (reeks 1)" ,"Opgave"=> "Pas de rekenregels toe en bereken" ),
+                 "logaritmen.6"=>array( "Titel"=> "Vorm om" ,"Opgave"=> "Vorm exponentiële uitdrukkingen om naar logaritmische uitdrukkingen en omgekeerd" ),
 				 //"logaritmen.5"=>array( "Titel"=> "Rekenregels (reeks 2)" ,"Opgave"=> "Pas de rekenregels toe en bereken" ),
 
                 "Complexe getallen"=>array("Titel"=>"#Complexe getallen", "Opgave"=>"Bereken. Gebruik ZRM als oplossing op zicht niet mogelijk is."),
@@ -228,8 +232,20 @@ $paginas = array(
                 "complexe.getallen.2" =>array( "Titel"=> "Vermenigvuldigen en delen (a+bi)" ,"Opgave"=> "Bereken" ),
                 "complexe.getallen.3" =>array( "Titel"=> "Basisbewerkingen gemengd (a+bi)" ,"Opgave"=> "Bereken" ),
                 "complexe.getallen.4"=>array( "Titel"=> "Bepaal modulus en argument" ,"Opgave"=> "Bepaal modulus en argument" ),
+                //Programma's Nouredine
+                //"complex_machtswortels"=>array( "Titel"=> "complex_machtswortels" ,"Opgave"=> "Bepaal modulus en argument" ),
+                //"complex_gon_bewerkingen"=>array( "Titel"=> "complex_gon_bewerkingen" ,"Opgave"=> "Bepaal modulus en argument" ),
                 //"logaritmen.5"=>array( "Titel"=> "Rekenregels (reeks 2)" ,"Opgave"=> "Pas de rekenregels toe en bereken" ),
 
+                "Analytische meetkunde"=>array("Titel"=>"#Analytische meetkunde", "Opgave"=>"Bereken. Gebruik ZRM als oplossing op zicht niet mogelijk is."),
+//                "complexe.getallen.1" =>array( "Titel"=> "Optellen en aftrekken (a+bi)" ,"Opgave"=> "Bereken" ),
+                "driehoek.ingeschreven.cirkel" => array("Titel"=>"Ingeschreven cirkel in een driehoek", "Opgave"=>"Bepaal het middelpunt en de straal van de ingeschreven cirkel op basis van de 3 hoeken"),
+                "middelpunt.zwaartepunt" => array("Titel"=>"Midden lijnstuk en zwaartepunt driehoek", "Opgave"=>"Bepaal het midden van het lijnstuk of het zwaartepunt van de driehoek"),
+//                "bissectrices.van.rechten" => array("Titel"=>"Bissectrices berekenen", "Opgave"=>"Bepaal de bissectrices van de rechten"),
+                "afstand.tussen.rechte.en.punt" => array("Titel"=>"Afstand rechte en punt", "Opgave"=>"Bepaal de afstand van de rechte tot het gegeven punt"),
+                "middelpunt.straal.vergelijking.cirkel" => array("Titel"=>"Vergelijking cirkel", "Opgave"=>"Geef de middelpuntsvergelijking en de algemene vergelijking van de cirkel met middelpunt O en straal r"),
+
+    //"logaritmen.5"=>array( "Titel"=> "Rekenregels (reeks 2)" ,"Opgave"=> "Pas de rekenregels toe en bereken" ),
 
 
 );
