@@ -1,4 +1,5 @@
 <?php 
+require_once("basisgeletterdheid.breuken.4.php"); // Voeg deze regel toe, of pas het pad aan naar het juiste bestand
 
 class Pagina
 {
