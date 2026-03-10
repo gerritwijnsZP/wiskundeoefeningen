@@ -27,7 +27,7 @@ class Fabriek extends OefeningFactory
 		$randomletter = rand(65,80);
 		$letter1 = chr($randomletter);
 
-		$opg1		= "\\text {Bepaal het functievoorschrift van ".$functieletter."(x) als de functie als richtingscoëfficiënt ".$rico." heeft en door de punt ".$letter1."(".$ga.",".$gb.") gaat.}";
+		$opg1		= "\\text {Bepaal het functievoorschrift van ".$functieletter."(x) als de functie richtingscoëfficiënt ".$rico." heeft en door het punt ".$letter1."(".$ga.",".$gb.") gaat.}";
 		$opgave 	= $opg1;
 		$oplossing	= $opgave;
 		if ($gb<0){

@@ -240,6 +240,8 @@ $paginas = array(
                 "Analytische meetkunde"=>array("Titel"=>"#Analytische meetkunde", "Opgave"=>"Bereken. Gebruik ZRM als oplossing op zicht niet mogelijk is."),
 //                "complexe.getallen.1" =>array( "Titel"=> "Optellen en aftrekken (a+bi)" ,"Opgave"=> "Bereken" ),
                 "driehoek.ingeschreven.cirkel" => array("Titel"=>"Ingeschreven cirkel in een driehoek", "Opgave"=>"Bepaal het middelpunt en de straal van de ingeschreven cirkel op basis van de 3 hoeken"),
+				"nietcollineairepunten.omschreven.cirkel" => array("Titel"=>"Cirkel door 3 punten", "Opgave"=>"Bepaal de vergelijking van de cirkel door 3 niet-colliniaire punten. Geef de middelpuntsvergelijking en de algemene vergelijking."),
+				
                 "middelpunt.zwaartepunt" => array("Titel"=>"Midden lijnstuk en zwaartepunt driehoek", "Opgave"=>"Bepaal het midden van het lijnstuk of het zwaartepunt van de driehoek"),
 //                "bissectrices.van.rechten" => array("Titel"=>"Bissectrices berekenen", "Opgave"=>"Bepaal de bissectrices van de rechten"),
                 "afstand.tussen.rechte.en.punt" => array("Titel"=>"Afstand rechte en punt", "Opgave"=>"Bepaal de afstand van de rechte tot het gegeven punt"),
