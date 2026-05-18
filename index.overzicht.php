@@ -218,7 +218,13 @@ $paginas = array(
 				 "machten.rationaal.2" =>array( "Titel"=> "Quoti&euml;nt zelfde grondtal" ,"Opgave"=> "Werk uit m.b.v. de rekenregels" ),
 				 "machten.rationaal.3" =>array( "Titel"=> "Macht van een macht" ,"Opgave"=> "Werk uit m.b.v. de rekenregels" ),
 				 "machten.rationaal.getallen" =>array( "Titel"=> "Getallen als grondtal" ,"Opgave"=> "Bereken m.b.v. de rekenregels (zonder ZRM)" ),
-				 
+
+				 "exponentielegroei"=>array("Titel"=>"#Exponentielegroei", "Opgave"=>"Bereken. Gebruik ZRM als oplossing op zicht niet mogelijk is."),
+				 "exponentielegroei.1" =>array( "Titel"=> "Financiële toepassingen" ,"Opgave"=> "Bereken" ),
+				
+				 //"logaritmen.5"=>array( "Titel"=> "Rekenregels (reeks 2)" ,"Opgave"=> "Pas de rekenregels toe en bereken" ),
+
+
 				 "logaritmen"=>array("Titel"=>"#Logaritmen", "Opgave"=>"Bereken. Gebruik ZRM als oplossing op zicht niet mogelijk is."),
 				 "logaritmen.1" =>array( "Titel"=> "Rekenen met log<sub>10</sub> (reeks 1)" ,"Opgave"=> "Bereken" ),
 				 "logaritmen.2" =>array( "Titel"=> "Rekenen met log<sub>10</sub> (reeks 2)" ,"Opgave"=> "Bepaal x" ),
@@ -239,6 +245,8 @@ $paginas = array(
 
                 "Analytische meetkunde"=>array("Titel"=>"#Analytische meetkunde", "Opgave"=>"Bereken. Gebruik ZRM als oplossing op zicht niet mogelijk is."),
 //                "complexe.getallen.1" =>array( "Titel"=> "Optellen en aftrekken (a+bi)" ,"Opgave"=> "Bereken" ),
+//                "afstand.punten" => array("Titel"=>"Afstand tussen 2 punten", "Opgave"=>"Bepaal de afstand tussen de twee gegeven punten"),
+ 
                 "driehoek.ingeschreven.cirkel" => array("Titel"=>"Ingeschreven cirkel in een driehoek", "Opgave"=>"Bepaal het middelpunt en de straal van de ingeschreven cirkel op basis van de 3 hoeken"),
 				"nietcollineairepunten.omschreven.cirkel" => array("Titel"=>"Cirkel door 3 punten", "Opgave"=>"Bepaal de vergelijking van de cirkel door 3 niet-colliniaire punten. Geef de middelpuntsvergelijking en de algemene vergelijking."),
 				
@@ -274,9 +282,17 @@ $meetkunde = array(
 				
 				"goniometrie"=>array("Titel"=>"#Goniometrie","Opgave"=>"Bereken de grootte van de hoek(en) en de lengte van de zijde(n) in een rechthoekige driehoek"),
 				"goniometrie.1"=> array("Titel"=>"Pythagoras, sin, cos, tan", "Opgave"=>"Bereken de grootte van de hoek(en) en de lengte van de zijde(n) in een rechthoekige driehoek"),
-				
+                "driehoek.willekeurig" => array("Titel"=>"Bepaal zijden en hoeken driehoek", "Opgave"=>"Bereken de niet gekende zijden en hoeken van een willekeurige driehoek met sinusregel en cosinusregel"),
+                //KASPER "goniometrie.rechthoekigedriehoek" => array("Titel"=>"RH DR zijden en hoeken driehoek", "Opgave"=>"Bereken de niet gekende zijden en hoeken van een willekeurige driehoek met sinusregel en cosinusregel"),
+				//KASPER "goniometrie.pythagoras" => array("Titel"=>"Put zijden en hoeken driehoek", "Opgave"=>"Bereken de niet gekende zijden en hoeken van een willekeurige driehoek met sinusregel en cosinusregel"),
+				"afgeleiden" => array("Titel"=>"Afgeleiden", "Opgave"=>"Bereken de afgeleiden van volgende functies"),
+
 				"functieonderzoek"=>array("Titel"=>"#Functieonderzoek","Opgave"=>"Bepaal nulwaarde, waardentabel, domein en bereik. Teken de grafiek."),
 				"functieonderzoek.1"=> array("Titel"=>"1e graad met grafiek (1)", "Opgave"=>"Bepaal nulwaarde, waardentabel, domein en bereik"),
+				//"eerstegraadsfunctie.2"=> array("Titel"=>"1e graad met grafiek (1)", "Opgave"=>"Bepaal nulwaarde, waardentabel, domein en bereik"),
+
+				"functieonderzoek.2"=> array("Titel"=>"2e graad met grafiek (1)", "Opgave"=>"Bepaal nulwaarde, waardentabel, domein en bereik"),
+	
 				//"functieonderzoek.1.1"=> array("Titel"=>"1e graad zelf grafiek (2)", "Opgave"=>"Bepaal nulwaarde, waardentabel, domein en bereik. Teken grafiek."),
 				
 
